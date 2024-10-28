@@ -1,0 +1,85 @@
+graph 1 12.757 20.375
+node A 2.0141 0.25 3.9713 0.5 "ASSOCIATED CONCEPT FACET" solid ellipse black lightgrey
+node AC 6.599 0.25 2.45 0.5 "Associated Concepts" solid ellipse black lightgrey
+node P 2.0141 2.125 4.0281 0.5 "PHYSICAL ATTRIBUTES FACET" solid ellipse black lightgrey
+node AP 6.599 3.25 2.8766 0.5 "Attributes and Properties" solid ellipse black lightgrey
+node CE 6.599 2.5 2.6633 0.5 "Conditions and Effects" solid ellipse black lightgrey
+node DE 6.599 1.75 2.0662 0.5 "Design Elements" solid ellipse black lightgrey
+node C 6.599 1 0.88619 0.5 Color solid ellipse black lightgrey
+node SP 2.0141 4 3.8717 0.5 "STYLES AND PERIODS FACET" solid ellipse black lightgrey
+node SPC 6.599 4 2.2084 0.5 "Styles and Periods" solid ellipse black lightgrey
+node AG 2.0141 5.5 2.1941 0.5 "AGENTS FACET" solid ellipse black lightgrey
+node PE 6.599 6.25 0.99992 0.5 People solid ellipse black lightgrey
+node O 6.599 5.5 1.7392 0.5 Organizations solid ellipse black lightgrey
+node LO 6.599 4.75 2.1799 0.5 "Living Organisms" solid ellipse black lightgrey
+node ACV 6.599 12.625 2.5922 0.5 "ACTIVITIES FACET" solid ellipse black lightgrey
+node D 10.964 13.375 1.4549 0.5 Disciplines solid ellipse black lightgrey
+node F 10.964 14.125 1.5117 0.5 Furnishings solid ellipse black lightgrey
+node E 10.964 12.625 0.99992 0.5 Events solid ellipse black lightgrey
+node PMA 10.964 11.875 3.4737 0.5 "Physical and Mental Activities" solid ellipse black lightgrey
+node PT 10.964 11.125 2.9761 0.5 "Processes and Techniques" solid ellipse black lightgrey
+node M 2.0141 17.5 2.6349 0.5 "MATERIALS FACET" solid ellipse black lightgrey
+node MT 6.599 17.5 1.2843 0.5 Materials solid ellipse black lightgrey
+node O2 2.0141 10.375 2.2652 0.5 "OBJECTS FACET" solid ellipse black lightgrey
+node OGS 6.599 11.5 3.5163 0.5 "Object Groupings and Systems" solid ellipse black lightgrey
+node OG 6.599 10.75 1.7819 0.5 "Object Genres" solid ellipse black lightgrey
+node C1 6.599 10 1.6112 0.5 Components solid ellipse black lightgrey
+node BE 6.599 9.25 2.4927 0.5 "*Built Environment*" solid ellipse black lightgrey
+node S 10.964 10.375 3.2178 0.5 "Settlements and Landscapes" solid ellipse black lightgrey
+node BC 10.964 9.625 3.431 0.5 "Built Complexes and Districts" solid ellipse black lightgrey
+node SBW 10.964 8.875 2.2794 0.5 "Single Built Works" solid ellipse black lightgrey
+node OS 10.964 8.125 3.5874 0.5 "Open Spaces and Site Elements" solid ellipse black lightgrey
+node FE 6.599 16.75 3.4168 0.5 "*Furnishings and Equipment*" solid ellipse black lightgrey
+node CST 10.964 20.125 1.2274 0.5 Costume solid ellipse black lightgrey
+node TE 10.964 19.375 2.5353 0.5 "Tools and Equipment" solid ellipse black lightgrey
+node W 10.964 18.625 3.0898 0.5 "Weapons and Ammunition" solid ellipse black lightgrey
+node MD 10.964 17.875 2.3079 0.5 "Measuring Devices" solid ellipse black lightgrey
+node CN 10.964 17.125 1.4122 0.5 Containers solid ellipse black lightgrey
+node SD 10.964 16.375 1.8529 0.5 "Sound Devices" solid ellipse black lightgrey
+node RA 10.964 15.625 2.5496 0.5 "Recreational Artifacts" solid ellipse black lightgrey
+node TV 10.964 14.875 2.7344 0.5 "Transportation Vehicles" solid ellipse black lightgrey
+node VC 6.599 7 4.1419 0.5 "*Visual and Verbal Communication*" solid ellipse black lightgrey
+node VW 10.964 7.375 1.7108 0.5 "Visual Works" solid ellipse black lightgrey
+node EM 10.964 6.625 2.052 0.5 "Exchange Media" solid ellipse black lightgrey
+node IF 10.964 5.875 2.2794 0.5 "Information Forms" solid ellipse black lightgrey
+node BN 2.0141 18.25 3.0614 0.5 "BRAND NAMES FACET" solid ellipse black lightgrey
+node BN2 6.599 18.25 1.725 0.5 "Brand Names" solid ellipse black lightgrey
+edge A AC 4 4.0003 0.25 4.4105 0.25 4.8341 0.25 5.2168 0.25 solid black
+edge P AP 7 2.7443 2.363 3.241 2.5223 3.9201 2.7289 4.5281 2.875 4.7979 2.9398 5.0899 2.9994 5.3668 3.051 solid black
+edge P CE 4 3.7119 2.2636 4.2051 2.3042 4.7383 2.348 5.2098 2.3868 solid black
+edge P DE 4 3.7119 1.9864 4.2958 1.9384 4.9356 1.8857 5.463 1.8423 solid black
+edge P C 7 2.7443 1.887 3.241 1.7277 3.9201 1.5211 4.5281 1.375 5.0236 1.2559 5.5941 1.1547 6.0085 1.0875 solid black
+edge SP SPC 4 3.954 4 4.4193 4 4.9047 4 5.33 4 solid black
+edge AG PE 4 2.9174 5.6464 3.8141 5.794 5.1748 6.0179 5.9622 6.1475 solid black
+edge AG O 4 3.1137 5.5 3.8581 5.5 4.8391 5.5 5.5682 5.5 solid black
+edge AG LO 4 2.9174 5.3536 3.6702 5.2297 4.7502 5.052 5.5433 4.9215 solid black
+edge ACV D 4 7.5808 12.792 8.3553 12.926 9.4281 13.112 10.153 13.237 solid black
+edge ACV F 7 7.0729 12.862 7.5763 13.113 8.4128 13.507 9.17 13.75 9.4746 13.848 9.817 13.927 10.119 13.987 solid black
+edge ACV E 4 7.8965 12.625 8.6869 12.625 9.6667 12.625 10.3 12.625 solid black
+edge ACV PMA 4 7.5808 12.458 8.198 12.351 9.0047 12.211 9.674 12.096 solid black
+edge ACV PT 10 7.3446 12.416 7.748 12.287 8.2505 12.102 8.67 11.875 8.9142 11.743 8.917 11.615 9.17 11.5 9.323 11.431 9.4893 11.374 9.6568 11.328 solid black
+edge M MT 4 3.3339 17.5 4.1301 17.5 5.1214 17.5 5.7987 17.5 solid black
+edge O2 OGS 7 2.6598 10.586 3.1621 10.748 3.8848 10.97 4.5281 11.125 4.7638 11.182 5.0164 11.234 5.2611 11.281 solid black
+edge O2 OG 4 3.0849 10.462 3.8357 10.524 4.8378 10.606 5.5773 10.667 solid black
+edge O2 C1 4 3.0849 10.288 3.8627 10.224 4.91 10.138 5.6559 10.076 solid black
+edge O2 BE 7 2.6598 10.164 3.1621 10.002 3.8848 9.7796 4.5281 9.625 4.8257 9.5535 5.1503 9.4884 5.452 9.4333 solid black
+edge O2 FE 4 2.2066 10.625 2.9063 11.604 5.4632 15.181 6.3104 16.366 solid black
+edge O2 VC 4 2.3557 10.132 3.1532 9.5416 5.1972 8.0279 6.1203 7.3443 solid black
+edge BE S 10 7.735 9.3582 8.0465 9.4138 8.3789 9.4978 8.67 9.625 8.9245 9.7362 8.917 9.8853 9.17 10 9.3127 10.065 9.467 10.118 9.6231 10.163 solid black
+edge BE BC 4 7.7524 9.3485 8.2309 9.3899 8.7965 9.4388 9.3179 9.4839 solid black
+edge BE SBW 4 7.7524 9.1515 8.3619 9.0988 9.1126 9.0339 9.7334 8.9802 solid black
+edge BE OS 7 7.2874 9.0366 7.8007 8.878 8.5262 8.662 9.17 8.5 9.356 8.4532 9.554 8.4075 9.7478 8.365 solid black
+edge FE F 7 6.819 16.498 7.2193 16.025 8.1524 15.01 9.17 14.5 9.4476 14.361 9.7745 14.273 10.072 14.218 solid black
+edge FE CST 10 8.2098 16.837 8.381 16.903 8.5398 16.996 8.67 17.125 9.5131 17.961 8.3384 18.902 9.17 19.75 9.4327 20.018 9.8349 20.118 10.19 20.148 solid black
+edge FE TE 10 8.1907 16.843 8.3672 16.907 8.5326 16.998 8.67 17.125 9.3038 17.71 8.5442 18.407 9.17 19 9.2889 19.113 9.4328 19.195 9.5866 19.255 solid black
+edge FE W 10 8.1515 16.857 8.3386 16.919 8.5173 17.005 8.67 17.125 9.1001 17.463 8.7446 17.906 9.17 18.25 9.263 18.325 9.3675 18.386 9.478 18.436 solid black
+edge FE MD 10 7.9675 16.905 8.2074 16.958 8.4504 17.029 8.67 17.125 8.9245 17.236 8.917 17.385 9.17 17.5 9.3698 17.591 9.5922 17.66 9.8103 17.712 solid black
+edge FE CN 4 8.0872 16.877 8.7651 16.936 9.5441 17.003 10.118 17.053 solid black
+edge FE SD 4 8.0872 16.623 8.6885 16.571 9.3692 16.512 9.916 16.464 solid black
+edge FE RA 7 7.3418 16.52 7.8511 16.363 8.5486 16.156 9.17 16 9.4011 15.942 9.6506 15.885 9.8876 15.835 solid black
+edge FE TV 7 6.9545 16.501 7.4283 16.167 8.3227 15.578 9.17 15.25 9.3542 15.179 9.5547 15.12 9.7524 15.072 solid black
+edge VC VW 4 8.3021 7.1461 8.8708 7.1952 9.4858 7.2484 9.9798 7.2911 solid black
+edge VC EM 4 8.3021 6.8539 8.8171 6.8094 9.37 6.7616 9.8367 6.7212 solid black
+edge VC IF 10 8.0766 6.82 8.2805 6.7701 8.4837 6.7064 8.67 6.625 8.9245 6.5138 8.917 6.3647 9.17 6.25 9.3721 6.1584 9.5974 6.0888 9.8179 6.0361 solid black
+edge BN BN2 4 3.5454 18.25 4.2119 18.25 4.9765 18.25 5.5722 18.25 solid black
+stop
