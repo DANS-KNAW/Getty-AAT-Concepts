@@ -1,0 +1,5 @@
+
+SELECT * {
+    <http://vocab.getty.edu/aat/300123559> <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+    FILTER (LANG(?label) = 'nl'  || LANG(?label) = 'en'   )  
+}

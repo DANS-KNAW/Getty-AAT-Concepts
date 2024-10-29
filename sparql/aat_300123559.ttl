@@ -1,0 +1,322 @@
+
+<http://vocab.getty.edu/aat/300123559> a <http://vocab.getty.edu/ontology#Subject> , <http://purl.org/iso25964/skos-thes#ThesaurusArray> , <http://vocab.getty.edu/ontology#Hierarchy> , <http://www.w3.org/2004/02/skos/core#Collection> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Attributes and Properties (hierarchy name)"@en , "特質與屬性 (層級名)"@zh-hant , "tè zhí yǔ shǔ xìng"@zh-latn-pinyin-x-hanyu , "te zhi yu shu xing"@zh-latn-pinyin-x-notone , "t'e chih yü shu hsing"@zh-latn-wadegile , "Kenmerken en Eigenschappen"@nl , "atributos y propiedades"@es ;
+	<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300123559> ;
+	<http://purl.org/dc/terms/created> "1988-11-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/terms/modified> "2002-02-27T10:10:22"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2011-09-20T15:39:40"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2011-09-20T15:39:48"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2015-01-05T14:33:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2015-06-26T10:38:45"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2015-07-03T09:24:25"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2015-07-03T09:25:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2015-07-03T13:10:18"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2010-04-23T03:05:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2011-01-07T18:29:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2001-07-26T21:59:06"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2014-12-05T08:39:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2016-02-26T09:02:52"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2016-02-26T09:10:27"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2014-12-05T08:35:32"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2010-04-23T03:05:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2011-01-07T18:29:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2015-07-03T09:24:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#changeNote> <http://vocab.getty.edu/aat/rev/5001491266> , <http://vocab.getty.edu/aat/rev/5003049993> , <http://vocab.getty.edu/aat/rev/5003049996> , <http://vocab.getty.edu/aat/rev/5003790438> , <http://vocab.getty.edu/aat/rev/5004028560> , <http://vocab.getty.edu/aat/rev/5004029004> , <http://vocab.getty.edu/aat/rev/5004029006> , <http://vocab.getty.edu/aat/rev/5004029115> , <http://vocab.getty.edu/aat/rev/5000002888> , <http://vocab.getty.edu/aat/rev/5002372460> , <http://vocab.getty.edu/aat/rev/5002799966> , <http://vocab.getty.edu/aat/rev/5005443502> , <http://vocab.getty.edu/aat/rev/5001048194> , <http://vocab.getty.edu/aat/rev/5002372456> , <http://vocab.getty.edu/aat/rev/5002799961> , <http://vocab.getty.edu/aat/rev/5003761321> , <http://vocab.getty.edu/aat/rev/5003763285> , <http://vocab.getty.edu/aat/rev/5004043375> , <http://vocab.getty.edu/aat/rev/5004043862> , <http://vocab.getty.edu/aat/rev/5005443479> , <http://vocab.getty.edu/aat/rev/5005443480> , <http://vocab.getty.edu/aat/rev/5005443481> , <http://vocab.getty.edu/aat/rev/5005443482> , <http://vocab.getty.edu/aat/rev/5005443483> , <http://vocab.getty.edu/aat/rev/5005443484> , <http://vocab.getty.edu/aat/rev/5005443485> , <http://vocab.getty.edu/aat/rev/5005443486> , <http://vocab.getty.edu/aat/rev/5001491267> , <http://vocab.getty.edu/aat/rev/5003049995> , <http://vocab.getty.edu/aat/rev/5004029005> , <http://vocab.getty.edu/aat/rev/5004029007> , <http://vocab.getty.edu/aat/rev/5004029116> ;
+	<http://vocab.getty.edu/ontology#broader> <http://vocab.getty.edu/aat/300264087> ;
+	<http://vocab.getty.edu/ontology#broaderGenericExtended> <http://vocab.getty.edu/aat/300264087> ;
+	<http://vocab.getty.edu/ontology#broaderExtended> <http://vocab.getty.edu/aat/300264087> ;
+	<http://vocab.getty.edu/ontology#broaderPreferredExtended> <http://vocab.getty.edu/aat/300264087> ;
+	<http://vocab.getty.edu/ontology#parentString> "Physical Attributes Facet" ;
+	<http://www.w3.org/2004/02/skos/core#note> <http://vocab.getty.edu/aat/scopeNote/54429> , <http://vocab.getty.edu/aat/scopeNote/68621> , <http://vocab.getty.edu/aat/scopeNote/92952> , <http://vocab.getty.edu/aat/scopeNote/168165> , <http://vocab.getty.edu/aat/rev/5001491266> , <http://vocab.getty.edu/aat/rev/5003049993> , <http://vocab.getty.edu/aat/rev/5003049996> , <http://vocab.getty.edu/aat/rev/5003790438> , <http://vocab.getty.edu/aat/rev/5004028560> , <http://vocab.getty.edu/aat/rev/5004029004> , <http://vocab.getty.edu/aat/rev/5004029006> , <http://vocab.getty.edu/aat/rev/5004029115> , <http://vocab.getty.edu/aat/rev/5000002888> , <http://vocab.getty.edu/aat/rev/5002372460> , <http://vocab.getty.edu/aat/rev/5002799966> , <http://vocab.getty.edu/aat/rev/5005443502> , <http://vocab.getty.edu/aat/rev/5001048194> , <http://vocab.getty.edu/aat/rev/5002372456> , <http://vocab.getty.edu/aat/rev/5002799961> , <http://vocab.getty.edu/aat/rev/5003761321> , <http://vocab.getty.edu/aat/rev/5003763285> , <http://vocab.getty.edu/aat/rev/5004043375> , <http://vocab.getty.edu/aat/rev/5004043862> , <http://vocab.getty.edu/aat/rev/5005443479> , <http://vocab.getty.edu/aat/rev/5005443480> , <http://vocab.getty.edu/aat/rev/5005443481> , <http://vocab.getty.edu/aat/rev/5005443482> , <http://vocab.getty.edu/aat/rev/5005443483> , <http://vocab.getty.edu/aat/rev/5005443484> , <http://vocab.getty.edu/aat/rev/5005443485> , <http://vocab.getty.edu/aat/rev/5005443486> , <http://vocab.getty.edu/aat/rev/5001491267> , <http://vocab.getty.edu/aat/rev/5003049995> , <http://vocab.getty.edu/aat/rev/5004029005> , <http://vocab.getty.edu/aat/rev/5004029007> , <http://vocab.getty.edu/aat/rev/5004029116> ;
+	<http://vocab.getty.edu/ontology#parentStringAbbrev> "Physical Attributes Facet" ;
+	<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://vocab.getty.edu/aat/term/1000123559-en> , <http://vocab.getty.edu/aat/term/1000892925-zh-Hant> , <http://vocab.getty.edu/aat/term/1000892927-zh-Latn-pinyin-x-hanyu> , <http://vocab.getty.edu/aat/term/1000892928-zh-Latn-wadegile> , <http://vocab.getty.edu/aat/term/1000643135-nl> , <http://vocab.getty.edu/aat/term/1000438000-es> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "Attributes and Properties (hierarchy name)"@en , "特質與屬性 (層級名)"@zh-hant , "tè zhí yǔ shǔ xìng"@zh-latn-pinyin-x-hanyu , "t'e chih yü shu hsing"@zh-latn-wadegile , "Kenmerken en Eigenschappen"@nl , "atributos y propiedades"@es ;
+	<http://www.w3.org/2008/05/skos-xl#altLabel> <http://vocab.getty.edu/aat/term/1000892926-zh-Latn-pinyin-x-notone> ;
+	<http://www.w3.org/2004/02/skos/core#altLabel> "te zhi yu shu xing"@zh-latn-pinyin-x-notone ;
+	<http://vocab.getty.edu/ontology#broaderGeneric> <http://vocab.getty.edu/aat/300264087> ;
+	<http://vocab.getty.edu/ontology#broaderPreferred> <http://vocab.getty.edu/aat/300264087> ;
+	<http://vocab.getty.edu/ontology#prefLabelGVP> <http://vocab.getty.edu/aat/term/1000123559-en> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.getty.edu/aat/> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "D.DC" ;
+	<http://www.w3.org/2004/02/skos/core#scopeNote> <http://vocab.getty.edu/aat/scopeNote/54429> , <http://vocab.getty.edu/aat/scopeNote/68621> , <http://vocab.getty.edu/aat/scopeNote/92952> , <http://vocab.getty.edu/aat/scopeNote/168165> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000000> , <http://vocab.getty.edu/aat/contrib/10000131> , <http://vocab.getty.edu/aat/contrib/10000205> , <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000094828-subject-300123559> ;
+	<http://purl.org/dc/elements/1.1/identifier> "300123559" ;
+	<http://www.w3.org/2004/02/skos/core#member> <http://vocab.getty.edu/aat/300224517> , <http://vocab.getty.edu/aat/300226808> ;
+	<http://creativecommons.org/ns#license> <http://opendatacommons.org/licenses/by/1.0/> ;
+	<http://rdfs.org/ns/void#inDataset> <http://vocab.getty.edu/dataset/aat> ;
+	<http://purl.org/dc/terms/license> <http://opendatacommons.org/licenses/by/1.0/> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://vocab.getty.edu/aat/rev/5000002888> .
+
+<http://vocab.getty.edu/aat/rev/5001491266> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2002-02-27T10:10:22"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5003049993> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2011-09-20T15:39:40"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5003049996> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2011-09-20T15:39:48"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5003790438> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-01-05T14:33:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004028560> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-06-26T10:38:45"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004029004> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-07-03T09:24:25"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004029006> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-07-03T09:25:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004029115> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-07-03T13:10:18"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "updated" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5000002888> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Create> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "1988-11-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "created" ;
+	<http://purl.org/dc/elements/1.1/description> "" .
+
+<http://vocab.getty.edu/aat/rev/5001048194> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2001-07-26T21:59:06"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "Attributes and Properties (1000123559);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5002372456> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2010-04-23T03:05:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "atributos y propiedades (1000438000);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5002799961> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2011-01-07T18:29:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "Kenmerken en Eigenschappen {TOPTERM} (1000491299);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5003761321> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2014-12-05T08:35:32"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term deleted" ;
+	<http://purl.org/dc/elements/1.1/description> "Kenmerken en Eigenschappen (1000491299);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5003763285> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2014-12-05T08:39:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "Kenmerken en Eigenschappen {TOPTERM} (1000611088);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004043375> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2016-02-26T09:02:52"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term deleted" ;
+	<http://purl.org/dc/elements/1.1/description> "Kenmerken en Eigenschappen (1000611088);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004043862> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2016-02-26T09:10:27"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "Kenmerken en Eigenschappen {TOPTERM} (1000643135);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443479> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "特質與屬性 (1000892925);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443480> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "特質與屬性 (1000892925), Language: Chinese (traditional) 72551; Descriptor added; Preferred term for language added" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443481> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "t'e chih yü shu hsing (1000892928);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443482> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "t'e chih yü shu hsing (1000892928), Language: Chinese (transliterated Wade-Giles) 72582; Used For added; Preferred term for language added" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443483> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "te zhi yu shu xing (1000892926);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443484> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "te zhi yu shu xing (1000892926), Language: Chinese (transliterated Pinyin without tones) 72586; Used For added" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443485> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "tè zhí yǔ shǔ xìng (1000892927);" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5005443486> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2022-09-29T07:53:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "term added" ;
+	<http://purl.org/dc/elements/1.1/description> "tè zhí yǔ shǔ xìng (1000892927), Language: Chinese (transliterated Hanyu Pinyin) 72584; Used For added; Preferred term for language added" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5001491267> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2002-02-27T10:10:22"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "note created" ;
+	<http://purl.org/dc/elements/1.1/description> "" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5003049995> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2011-09-20T15:39:40"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "note updated" ;
+	<http://purl.org/dc/elements/1.1/description> "Language: Spanish (70641)" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004029005> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-07-03T09:24:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "note updated" ;
+	<http://purl.org/dc/elements/1.1/description> "Language: English (70051)" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004029007> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-07-03T09:25:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "note updated" ;
+	<http://purl.org/dc/elements/1.1/description> "Language: English (70051)" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/rev/5004029116> a <http://www.w3.org/ns/prov#Activity> , <http://www.w3.org/ns/prov#Modify> ;
+	<http://www.w3.org/ns/prov#startedAtTime> "2015-07-03T13:10:18"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/elements/1.1/type> "note updated" ;
+	<http://purl.org/dc/elements/1.1/description> "Language: English (70051)" ;
+	<http://www.w3.org/ns/prov#used> <http://vocab.getty.edu/aat/300123559> .
+
+<http://vocab.getty.edu/aat/source/2000094828-subject-300123559> a <http://purl.org/ontology/bibo/DocumentPart> ;
+	<http://purl.org/ontology/bibo/locator> "<attributes and properties>" ;
+	<http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/aat/source/2000094828> .
+
+<http://vocab.getty.edu/aat/scopeNote/54429> a <http://vocab.getty.edu/ontology#ScopeNote> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "The Attributes and Properties hierarchy contains terms for inherent characteristics, especially physical characteristics of materials and objects. Excluded are terms for colors and color properties, which are found in the separate Color hierarchy. In common usage, the distinction between which characteristics may be called \"attributes\" and which \"properties\" is not always clear, thus a separation between the two has not always been made in the hierarchy. As a general guideline, \"attributes\" refers to characteristics of individual objects, items, or entities, and the terms are mostly used to describe the thing; they often are readily apparent, though not quantifiable by an established standard. \"Properties\" refers here to characteristics that suggest how a material, or sometimes a grouping of things, will respond under certain conditions; they often are quantifiable, though often are not apparent without examination or testing. Relation to other hierarchies: Other terms that may be considered as attributes and may be used to describe objects are available in the form of alternate descriptors in other hierarchies (e.g., \"carved,\" alternate of \"carving\"; \"wooden,\" alternate of \"wood\"). Descriptors for color names are found in the color hierarchy. Certain physical phenomena that are closely associated with physical and chemical properties (e.g., \"luminescence\") are found in the Associated Concepts hierarchy. Expressions that describe effects of particular physical circumstances on materials or objects appear in the Conditions and Effects hierarchy (e.g., \"cracks\"). Descriptive characteristics appear also in various other hierarchies as parts of bound compound terms (e.g., \"split-level houses\")."@en ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000000> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000099620> ;
+	<http://purl.org/dc/elements/1.1/identifier> "54429" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388277> , <http://vocab.getty.edu/language/en> .
+
+<http://vocab.getty.edu/aat/scopeNote/68621> a <http://vocab.getty.edu/ontology#ScopeNote> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "La Jerarquía Atributos y Propiedades contiene descriptores para las características inherentes, especialmente características físicas de materiales y objetos. Se excluyen los descriptores para colores y propiedades del color, que se encuentran en la Jerarquía de Color. En el uso común, la distinción entre las características que pueden ser llamadas \"atributos” y las que pueden ser llamadas \"propiedades” no siempre se encuentran claras. Como guía general, \"atributos” se refiere a características individuales de objetos, ítem o entidades y de manera principal, los descriptores son empleados para describir el objeto; generalmente evidente, aunque no cuantificable según un estándar establecido. \"Propiedades\" se refiere aquí a las características que sugieren cómo un material o algunas veces un grupo de objetos, responderán ante ciertas condiciones; estos muchas veces son cuantificables, aunque muchas veces su evidencia requiere de exámenes o pruebas. Con relación a otras jerarquías: otros descriptores que pudieran ser considerados como atributos y empleados para describir objetos están disponibles como descriptores alternativos en otras jerarquías (ej. tallado y sus derivados, madera y sus derivados). Los descriptores para los nombres de colores se encuentran en la jerarquía color. Algunos fenómenos físicos que se asocian cercanamente con propiedades físicas y químicas (ej. luminiscencia) se ubican en la Jerarquía Conceptos Asociados. Expresiones que describen efectos de una circunstancia física particular sobre un material u objeto, se ubican en Jerarquía Condiciones y Efectos (ej. fisura). Características descriptivas aparecen en varias otras jerarquías como parte de descriptores compuetos (ej. casa a dos niveles)."@es ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000131> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000051034> ;
+	<http://purl.org/dc/elements/1.1/identifier> "68621" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300389311> , <http://vocab.getty.edu/language/es> .
+
+<http://vocab.getty.edu/aat/scopeNote/92952> a <http://vocab.getty.edu/ontology#ScopeNote> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "De hiërarchie Kenmerken en Eigenschappen bevat descriptoren voor intrinsieke kenmerken, in het bijzonder fysieke kenmerken van materialen en objecten. Uitgezonderd zijn descriptoren voor kleuren en kleureigenschappen, die deel uitmaken van de afzonderlijke hiërarchie Kleur. In algemeen gebruik is het onderscheid tussen welke karakteristieken 'kenmerken' en welke 'eigenschappen' genoemd kunnen worden niet altijd duidelijk, en daarom is er in de hiërarchie niet altijd een scheiding aangebracht tussen de twee. Als algemene richtlijn verwijst 'kenmerken' naar karakteristieken van individuele objecten, onderdelen of eenheden, en de descriptoren worden gewoonlijk gebruikt om de zaak te beschrijven; ze zijn vaak duidelijk waarneembaar, hoewel niet kwantificeerbaar volgens een vastgestelde norm. 'Eigenschappen' verwijst hier naar karakteristieken die suggereren hoe een materiaal, of soms een groep van dingen, zal reageren onder bepaalde omstandigheden; ze zijn vaak kwantificeerbaar, hoewel ze vaak niet waarneembaar zijn zonder onderzoek of tests. Relatie tot Overige hiërarchieën: overige descriptoren die kunnen worden beschouwd als kenmerken en die kunnen worden gebruikt om voorwerpen te beschrijven zijn beschikbaar in de vorm van alternatieve descriptoren in andere hiërarchieën (bijvoorbeeld gesneden, alternatief van snijden; houten, alternatief van hout). Descriptoren voor namen van kleuren zijn te vinden in de hiërarchie Kleur. Bepaalde fysieke fenomenen die nauw verbonden zijn met fysieke en chemische eigenschappen (bijvoorbeeld luminescentie) zijn te vinden in de hiërarchie Abstracte Begrippen. Uitdrukkingen die effecten van bepaalde fysieke omstandigheden op materialen of objecten beschrijven, zijn te vinden in de hiërarchie Toestanden en Effecten (bijvoorbeeld barsten). Descriptieve karakteristieken zijn ook te vinden in verschillende andere hiërarchieën als gedeelten van samengestelde descriptoren (bijvoorbeeld splitlevelwoningen)."@nl ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000205> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000113770> ;
+	<http://purl.org/dc/elements/1.1/identifier> "92952" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388256> , <http://vocab.getty.edu/language/nl> .
+
+<http://vocab.getty.edu/aat/scopeNote/168165> a <http://vocab.getty.edu/ontology#ScopeNote> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "「特質與屬性」層級包含本身即具有某些特性的描述語，特別像是具有物理特性的物質或物件，但關於顏色或具色彩屬性的描述語則不收錄在此層級，而另見於「色彩」層級中。就常見用法來說，相對於「特質」而言，「屬性」的定義通常並不是那麼清楚，因此不同特性間的區別可以「特質」通稱之，且「特質」與「屬性」兩者並不一定會於層級中給予明確的分野。一般來說，「特質」通常指個別獨立的物件、某一品目或實體的特性，而其描述語也多用以描述某物，即便這些物件不見得能藉由巳制定的標準加以量化，但通常仍能毫無困難的由其外觀辨認出來。「屬性」在此意為某種物質或某些物件的群集在某些特定條件之下的反應，此類具備特定屬性的物質或物件通常能藉由檢驗或測試來加以量化。「特質與屬性」層級與其它層級之關係: 其它被視為具有「特質」且能用以形容物件的描述語，請參閱其它相關替代的層級 （例如「雕刻的」請參閱「雕刻品」;「木製的」則見於「木頭」）。關於色彩名稱的描述語請見「色彩」層級。特別與物理和化學相關的物理現象，例如像「冷光」等，請參閱「關聯概念」層級。對於描述物質或物件的某種特定物理情況，例如像「裂縫」請參見「情況與作用」層級。另外，某些複合描述語，像「錯層式住宅」則可能出現於不同的層級中。"@zh-hant ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://purl.org/dc/elements/1.1/identifier> "168165" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388116> , <http://vocab.getty.edu/language/zh-Hant> .
+
+<http://vocab.getty.edu/aat/term/1000123559-en> a <http://www.w3.org/2008/05/skos-xl#Label> ;
+	<http://vocab.getty.edu/ontology#term> "Attributes and Properties"@en ;
+	<http://vocab.getty.edu/ontology#qualifier> "hierarchy name"@en ;
+	<http://vocab.getty.edu/ontology#displayOrder> "1"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+	<http://www.w3.org/2008/05/skos-xl#literalForm> "Attributes and Properties (hierarchy name)"@en ;
+	<http://vocab.getty.edu/ontology#termType> <http://vocab.getty.edu/term/type/Descriptor> ;
+	<http://vocab.getty.edu/ontology#termPOS> <http://vocab.getty.edu/term/POS/NeuterAdjectival> ;
+	<http://vocab.getty.edu/ontology#contributorPreferred> <http://vocab.getty.edu/aat/contrib/10000000> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000000> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000094828> ;
+	<http://vocab.getty.edu/ontology#sourceNonPreferred> <http://vocab.getty.edu/aat/source/2000094828> ;
+	<http://purl.org/dc/elements/1.1/identifier> "1000123559" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388277> , <http://vocab.getty.edu/language/en> .
+
+<http://vocab.getty.edu/aat/term/1000892925-zh-Hant> a <http://www.w3.org/2008/05/skos-xl#Label> ;
+	<http://vocab.getty.edu/ontology#term> "特質與屬性"@zh-hant ;
+	<http://vocab.getty.edu/ontology#qualifier> "層級名"@zh-hant ;
+	<http://vocab.getty.edu/ontology#displayOrder> "2"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+	<http://www.w3.org/2008/05/skos-xl#literalForm> "特質與屬性 (層級名)"@zh-hant ;
+	<http://vocab.getty.edu/ontology#termType> <http://vocab.getty.edu/term/type/Descriptor> ;
+	<http://vocab.getty.edu/ontology#contributorPreferred> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://vocab.getty.edu/ontology#sourceNonPreferred> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://purl.org/dc/elements/1.1/identifier> "1000892925" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388116> , <http://vocab.getty.edu/language/zh-Hant> .
+
+<http://vocab.getty.edu/aat/term/1000892927-zh-Latn-pinyin-x-hanyu> a <http://www.w3.org/2008/05/skos-xl#Label> ;
+	<http://vocab.getty.edu/ontology#term> "tè zhí yǔ shǔ xìng"@zh-latn-pinyin-x-hanyu ;
+	<http://vocab.getty.edu/ontology#displayOrder> "3"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+	<http://www.w3.org/2008/05/skos-xl#literalForm> "tè zhí yǔ shǔ xìng"@zh-latn-pinyin-x-hanyu ;
+	<http://vocab.getty.edu/ontology#termType> <http://vocab.getty.edu/term/type/UsedForTerm> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://vocab.getty.edu/ontology#sourceNonPreferred> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://purl.org/dc/elements/1.1/identifier> "1000892927" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388117> , <http://vocab.getty.edu/language/zh-Latn-pinyin-x-hanyu> .
+
+<http://vocab.getty.edu/aat/term/1000892928-zh-Latn-wadegile> a <http://www.w3.org/2008/05/skos-xl#Label> ;
+	<http://vocab.getty.edu/ontology#term> "t'e chih yü shu hsing"@zh-latn-wadegile ;
+	<http://vocab.getty.edu/ontology#displayOrder> "5"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+	<http://www.w3.org/2008/05/skos-xl#literalForm> "t'e chih yü shu hsing"@zh-latn-wadegile ;
+	<http://vocab.getty.edu/ontology#termType> <http://vocab.getty.edu/term/type/UsedForTerm> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://vocab.getty.edu/ontology#sourceNonPreferred> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://purl.org/dc/elements/1.1/identifier> "1000892928" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388121> , <http://vocab.getty.edu/language/zh-Latn-wadegile> .
+
+<http://vocab.getty.edu/aat/term/1000643135-nl> a <http://www.w3.org/2008/05/skos-xl#Label> ;
+	<http://vocab.getty.edu/ontology#term> "Kenmerken en Eigenschappen"@nl ;
+	<http://vocab.getty.edu/ontology#displayOrder> "6"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+	<http://www.w3.org/2008/05/skos-xl#literalForm> "Kenmerken en Eigenschappen"@nl ;
+	<http://vocab.getty.edu/ontology#termType> <http://vocab.getty.edu/term/type/Descriptor> ;
+	<http://vocab.getty.edu/ontology#contributorPreferred> <http://vocab.getty.edu/aat/contrib/10000205> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000205> ;
+	<http://purl.org/dc/elements/1.1/identifier> "1000643135" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388256> , <http://vocab.getty.edu/language/nl> .
+
+<http://vocab.getty.edu/aat/term/1000438000-es> a <http://www.w3.org/2008/05/skos-xl#Label> ;
+	<http://vocab.getty.edu/ontology#term> "atributos y propiedades"@es ;
+	<http://vocab.getty.edu/ontology#displayOrder> "7"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+	<http://www.w3.org/2008/05/skos-xl#literalForm> "atributos y propiedades"@es ;
+	<http://vocab.getty.edu/ontology#termType> <http://vocab.getty.edu/term/type/Descriptor> ;
+	<http://vocab.getty.edu/ontology#contributorPreferred> <http://vocab.getty.edu/aat/contrib/10000131> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000131> ;
+	<http://vocab.getty.edu/ontology#sourcePreferred> <http://vocab.getty.edu/aat/source/2000051034> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000051034> ;
+	<http://purl.org/dc/elements/1.1/identifier> "1000438000" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300389311> , <http://vocab.getty.edu/language/es> .
+
+<http://vocab.getty.edu/aat/term/1000892926-zh-Latn-pinyin-x-notone> a <http://www.w3.org/2008/05/skos-xl#Label> ;
+	<http://vocab.getty.edu/ontology#term> "te zhi yu shu xing"@zh-latn-pinyin-x-notone ;
+	<http://vocab.getty.edu/ontology#displayOrder> "4"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+	<http://www.w3.org/2008/05/skos-xl#literalForm> "te zhi yu shu xing"@zh-latn-pinyin-x-notone ;
+	<http://vocab.getty.edu/ontology#termType> <http://vocab.getty.edu/term/type/UsedForTerm> ;
+	<http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/aat/contrib/10000250> ;
+	<http://purl.org/dc/terms/source> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://vocab.getty.edu/ontology#sourceNonPreferred> <http://vocab.getty.edu/aat/source/2000079740> ;
+	<http://purl.org/dc/elements/1.1/identifier> "1000892926" ;
+	<http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388118> , <http://vocab.getty.edu/language/zh-Latn-pinyin-x-notone> .
