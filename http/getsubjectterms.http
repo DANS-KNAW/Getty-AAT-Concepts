@@ -1,0 +1,2 @@
+GET /AATService.asmx/AATGetSubjectTerms?subjectID=300019255 HTTP/1.1
+Host: vocabsservices.getty.edu
