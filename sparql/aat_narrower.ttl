@@ -1,0 +1,15 @@
+
+# find subject with skos:narrower relationships to other subject 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX aat: <http://vocab.getty.edu/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT *
+FROM <http://vocab.getty.edu/aat/>
+WHERE {
+    ?s skos:narrower ?o .
+}
+LIMIT 10
+
+# result = 0 as this relationship is only available via inference which we can use, from a remote query
