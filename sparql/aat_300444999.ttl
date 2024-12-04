@@ -1,0 +1,174 @@
+PREFIX aat:     <http://vocab.getty.edu/aat/>
+PREFIX as:      <https://www.w3.org/ns/activitystreams#>
+PREFIX cc:      <http://creativecommons.org/ns#>
+PREFIX csvw:    <http://www.w3.org/ns/csvw#>
+PREFIX ctag:    <http://commontag.org/ns#>
+PREFIX dc:      <http://purl.org/dc/terms/>
+PREFIX dc11:    <http://purl.org/dc/elements/1.1/>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dqv:     <http://www.w3.org/ns/dqv#>
+PREFIX duv:     <https://www.w3.org/ns/duv#>
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+PREFIX gr:      <http://purl.org/goodrelations/v1#>
+PREFIX grddl:   <http://www.w3.org/2003/g/data-view#>
+PREFIX gvp:     <http://vocab.getty.edu/ontology#>
+PREFIX ical:    <http://www.w3.org/2002/12/cal/icaltzd#>
+PREFIX jsonld:  <http://www.w3.org/ns/json-ld#>
+PREFIX ldp:     <http://www.w3.org/ns/ldp#>
+PREFIX ma:      <http://www.w3.org/ns/ma-ont#>
+PREFIX oa:      <http://www.w3.org/ns/oa#>
+PREFIX odrl:    <http://www.w3.org/ns/odrl/2/>
+PREFIX og:      <http://ogp.me/ns#>
+PREFIX org:     <http://www.w3.org/ns/org#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX qb:      <http://purl.org/linked-data/cube#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfa:    <http://www.w3.org/ns/rdfa#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev:     <http://purl.org/stuff/rev#>
+PREFIX rif:     <http://www.w3.org/2007/rif#>
+PREFIX rr:      <http://www.w3.org/ns/r2rml#>
+PREFIX schema:  <http://schema.org/>
+PREFIX sd:      <http://www.w3.org/ns/sparql-service-description#>
+PREFIX sioc:    <http://rdfs.org/sioc/ns#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl:  <http://www.w3.org/2008/05/skos-xl#>
+PREFIX sosa:    <http://www.w3.org/ns/sosa/>
+PREFIX ssn:     <http://www.w3.org/ns/ssn/>
+PREFIX time:    <http://www.w3.org/2006/time#>
+PREFIX v:       <http://rdf.data-vocabulary.org/#>
+PREFIX vcard:   <http://www.w3.org/2006/vcard/ns#>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX wdr:     <http://www.w3.org/2007/05/powder#>
+PREFIX wdrs:    <http://www.w3.org/2007/05/powder-s#>
+PREFIX xhv:     <http://www.w3.org/1999/xhtml/vocab#>
+PREFIX xml:     <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<http://vocab.getty.edu/aat/term/1000875256-en>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000875256";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language                  <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000113499>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000000>;
+        gvp:displayOrder             "2"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred       <http://vocab.getty.edu/aat/source/2000113499>;
+        gvp:term                     "Post-Colonialism"@en;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "Post-Colonialism"@en .
+
+<http://vocab.getty.edu/aat/source/2000113893-term-1000875255>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart> , <http://purl.org/ontology/bibo/Document>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000113893>;
+        <http://purl.org/ontology/bibo/locator>
+                "BWR-10" .
+
+<http://vocab.getty.edu/aat/term/1000875255-en>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000875255";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000000> , <http://vocab.getty.edu/aat/contrib/10000279>;
+        dc:language               <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000113499> , <http://vocab.getty.edu/aat/source/2000113893-term-1000875255>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000000> , <http://vocab.getty.edu/aat/contrib/10000279>;
+        gvp:displayOrder          "1"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred    <http://vocab.getty.edu/aat/source/2000113499> , <http://vocab.getty.edu/aat/source/2000113893-term-1000875255>;
+        gvp:term                  "Post-Colonial"@en;
+        gvp:termPOS               <http://vocab.getty.edu/term/POS/Noun>;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "Post-Colonial"@en .
+
+<http://vocab.getty.edu/aat/source/2000113499-scopeNote-161754>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000113499>;
+        <http://purl.org/ontology/bibo/locator>
+                "King, Anthony D., \"Colonialism,\" accessed 23 August 2021" .
+
+<http://vocab.getty.edu/aat/scopeNote/161754>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "Basic reference to 'after the colonial\" condition, periods, and cultures of peoples, states, and societies that have been through a process of formal decolonization. Since the 1980s the term is used to also refer to the trend to question Western knowledge, categories, and assumptions."@en;
+        dc11:identifier  "161754";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language      <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source        <http://vocab.getty.edu/aat/source/2000113499-scopeNote-161754> .
+
+<http://vocab.getty.edu/aat/rev/5005277415>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Post-Colonialism (1000875256), Language: English 70051; Used For added";
+        dc11:type           "term added";
+        prov:startedAtTime  "2021-08-23T13:00:44"^^xsd:dateTime;
+        prov:used           aat:300444999 .
+
+<http://vocab.getty.edu/aat/rev/5005277413>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Post-Colonialism (1000875256);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2021-08-23T13:00:44"^^xsd:dateTime;
+        prov:used           aat:300444999 .
+
+<http://vocab.getty.edu/aat/rev/5005277409>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "NEW SUBJECT (1000875255), Language: English 70051; Used For added";
+        dc11:type           "term added";
+        prov:startedAtTime  "2021-08-23T12:56:08"^^xsd:dateTime;
+        prov:used           aat:300444999 .
+
+<http://vocab.getty.edu/aat/rev/5005277408>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "NEW SUBJECT (1000875255);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2021-08-23T12:56:08"^^xsd:dateTime;
+        prov:used           aat:300444999 .
+
+<http://vocab.getty.edu/aat/rev/5005277416>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Language: English (70051)";
+        dc11:type           "note created";
+        prov:startedAtTime  "2021-08-23T13:00:44"^^xsd:dateTime;
+        prov:used           aat:300444999 .
+
+<http://vocab.getty.edu/aat/rev/5005277410>
+        rdf:type            prov:Create , prov:Activity;
+        dc11:description    "";
+        dc11:type           "created";
+        prov:startedAtTime  "2021-08-23T12:56:08"^^xsd:dateTime .
+
+<http://vocab.getty.edu/aat/rev/5005277411>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2021-08-23T13:00:44"^^xsd:dateTime;
+        prov:used           aat:300444999 .
+
+aat:300444999  rdf:type               gvp:Subject , skos:Concept , gvp:Concept;
+        rdfs:label                    "Post-Colonial"@en , "Post-Colonialism"@en;
+        rdfs:seeAlso                  <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300444999>;
+        cc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc11:identifier               "300444999";
+        dc:contributor                <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:created                    "2021-08-23T12:56:08"^^xsd:dateTime;
+        dc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc:modified                   "2021-08-23T13:00:44"^^xsd:dateTime , "2021-08-23T12:56:08"^^xsd:dateTime;
+        void:inDataset                <http://vocab.getty.edu/dataset/aat>;
+        gvp:broader                   aat:300111078;
+        gvp:broaderExtended           aat:300015646 , aat:300264088 , aat:300111078;
+        gvp:broaderGeneric            aat:300111078;
+        gvp:broaderGenericExtended    aat:300015646 , aat:300264088 , aat:300111078;
+        gvp:broaderNonConcept         aat:300111078;
+        gvp:broaderPreferred          aat:300111078;
+        gvp:broaderPreferredExtended  aat:300015646 , aat:300264088 , aat:300111078;
+        gvp:displayOrder              "14"^^xsd:positiveInteger;
+        gvp:parentString              "<styles, periods, and cultures by general era>, Styles and Periods (hierarchy name), Styles and Periods Facet";
+        gvp:parentStringAbbrev        "<styles, periods, and cultures by general era>, Styles and Periods (hierarchy name), Styles and Periods Facet";
+        gvp:prefLabelGVP              <http://vocab.getty.edu/aat/term/1000875255-en>;
+        skos:altLabel                 "Post-Colonialism"@en;
+        skos:changeNote               <http://vocab.getty.edu/aat/rev/5005277411> , <http://vocab.getty.edu/aat/rev/5005277410> , <http://vocab.getty.edu/aat/rev/5005277416> , <http://vocab.getty.edu/aat/rev/5005277408> , <http://vocab.getty.edu/aat/rev/5005277409> , <http://vocab.getty.edu/aat/rev/5005277413> , <http://vocab.getty.edu/aat/rev/5005277415>;
+        skos:inScheme                 aat:;
+        skos:note                     <http://vocab.getty.edu/aat/rev/5005277415> , <http://vocab.getty.edu/aat/rev/5005277413> , <http://vocab.getty.edu/aat/rev/5005277409> , <http://vocab.getty.edu/aat/rev/5005277408> , <http://vocab.getty.edu/aat/rev/5005277416> , <http://vocab.getty.edu/aat/rev/5005277410> , <http://vocab.getty.edu/aat/rev/5005277411> , <http://vocab.getty.edu/aat/scopeNote/161754>;
+        skos:prefLabel                "Post-Colonial"@en;
+        skos:scopeNote                <http://vocab.getty.edu/aat/scopeNote/161754>;
+        skosxl:altLabel               <http://vocab.getty.edu/aat/term/1000875256-en>;
+        skosxl:prefLabel              <http://vocab.getty.edu/aat/term/1000875255-en>;
+        prov:wasGeneratedBy           <http://vocab.getty.edu/aat/rev/5005277410> .
