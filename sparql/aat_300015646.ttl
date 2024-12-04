@@ -1,0 +1,504 @@
+PREFIX aat:     <http://vocab.getty.edu/aat/>
+PREFIX as:      <https://www.w3.org/ns/activitystreams#>
+PREFIX cc:      <http://creativecommons.org/ns#>
+PREFIX csvw:    <http://www.w3.org/ns/csvw#>
+PREFIX ctag:    <http://commontag.org/ns#>
+PREFIX dc:      <http://purl.org/dc/terms/>
+PREFIX dc11:    <http://purl.org/dc/elements/1.1/>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dqv:     <http://www.w3.org/ns/dqv#>
+PREFIX duv:     <https://www.w3.org/ns/duv#>
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+PREFIX gr:      <http://purl.org/goodrelations/v1#>
+PREFIX grddl:   <http://www.w3.org/2003/g/data-view#>
+PREFIX gvp:     <http://vocab.getty.edu/ontology#>
+PREFIX ical:    <http://www.w3.org/2002/12/cal/icaltzd#>
+PREFIX jsonld:  <http://www.w3.org/ns/json-ld#>
+PREFIX ldp:     <http://www.w3.org/ns/ldp#>
+PREFIX ma:      <http://www.w3.org/ns/ma-ont#>
+PREFIX oa:      <http://www.w3.org/ns/oa#>
+PREFIX odrl:    <http://www.w3.org/ns/odrl/2/>
+PREFIX og:      <http://ogp.me/ns#>
+PREFIX org:     <http://www.w3.org/ns/org#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX qb:      <http://purl.org/linked-data/cube#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfa:    <http://www.w3.org/ns/rdfa#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev:     <http://purl.org/stuff/rev#>
+PREFIX rif:     <http://www.w3.org/2007/rif#>
+PREFIX rr:      <http://www.w3.org/ns/r2rml#>
+PREFIX schema:  <http://schema.org/>
+PREFIX sd:      <http://www.w3.org/ns/sparql-service-description#>
+PREFIX sioc:    <http://rdfs.org/sioc/ns#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl:  <http://www.w3.org/2008/05/skos-xl#>
+PREFIX sosa:    <http://www.w3.org/ns/sosa/>
+PREFIX ssn:     <http://www.w3.org/ns/ssn/>
+PREFIX time:    <http://www.w3.org/2006/time#>
+PREFIX v:       <http://rdf.data-vocabulary.org/#>
+PREFIX vcard:   <http://www.w3.org/2006/vcard/ns#>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX wdr:     <http://www.w3.org/2007/05/powder#>
+PREFIX wdrs:    <http://www.w3.org/2007/05/powder-s#>
+PREFIX xhv:     <http://www.w3.org/1999/xhtml/vocab#>
+PREFIX xml:     <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+aat:300015646-list-300389850
+        rdf:type   rdf:List;
+        rdf:first  aat:300389850;
+        rdf:rest   () .
+
+aat:300015646-list-300310538
+        rdf:type   rdf:List;
+        rdf:first  aat:300310538;
+        rdf:rest   aat:300015646-list-300389850 .
+
+aat:300015646-list-300111079
+        rdf:type   rdf:List;
+        rdf:first  aat:300111079;
+        rdf:rest   aat:300015646-list-300310538 .
+
+aat:300015646-list-300111078
+        rdf:type   rdf:List;
+        rdf:first  aat:300111078;
+        rdf:rest   aat:300015646-list-300111079 .
+
+<http://vocab.getty.edu/aat/term/1000420015-es>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000420015";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000131>;
+        dc:language               <http://vocab.getty.edu/language/es> , aat:300389311;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000051034>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000131>;
+        gvp:displayOrder          "9"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000051034>;
+        gvp:term                  "estilos y periodos"@es;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "estilos y periodos"@es .
+
+<http://vocab.getty.edu/aat/term/1000313834-fr>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000313834";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000159> , <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language                  <http://vocab.getty.edu/language/fr> , aat:300388306;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000048434>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000000>;
+        gvp:contributorPreferred     <http://vocab.getty.edu/aat/contrib/10000159>;
+        gvp:displayOrder             "7"^^xsd:positiveInteger;
+        gvp:sourcePreferred          <http://vocab.getty.edu/aat/source/2000048434>;
+        gvp:term                     "Styles et périodes"@fr;
+        gvp:termPOS                  <http://vocab.getty.edu/term/POS/NeuterAdjectival>;
+        gvp:termType                 <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm           "Styles et périodes"@fr .
+
+<http://vocab.getty.edu/aat/term/1000642949-nl>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000642949";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000205>;
+        dc:language               <http://vocab.getty.edu/language/nl> , aat:300388256;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000099099>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000205>;
+        gvp:displayOrder          "6"^^xsd:positiveInteger;
+        gvp:term                  "Stijlen en Perioden"@nl;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "Stijlen en Perioden"@nl .
+
+<http://vocab.getty.edu/aat/term/1000756970-zh-Latn-wadegile>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000756970";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language                  <http://vocab.getty.edu/language/zh-Latn-wadegile> , aat:300388121;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder             "5"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred       <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:term                     "feng ko yü shih tai"@zh-Latn-wadegile;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "feng ko yü shih tai"@zh-Latn-wadegile .
+
+<http://vocab.getty.edu/aat/term/1000756968-zh-Latn-pinyin-x-notone>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000756968";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language                  <http://vocab.getty.edu/language/zh-Latn-pinyin-x-notone> , aat:300388118;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder             "4"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred       <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:term                     "feng ge yu shi dai"@zh-Latn-pinyin-x-notone;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "feng ge yu shi dai"@zh-Latn-pinyin-x-notone .
+
+<http://vocab.getty.edu/aat/term/1000756969-zh-Latn-pinyin-x-hanyu>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000756969";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language                  <http://vocab.getty.edu/language/zh-Latn-pinyin-x-hanyu> , aat:300388117;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder             "3"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred       <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:term                     "fēng gé yǔ shí dài"@zh-Latn-pinyin-x-hanyu;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "fēng gé yǔ shí dài"@zh-Latn-pinyin-x-hanyu .
+
+<http://vocab.getty.edu/aat/term/1000756967-zh-Hant>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000756967";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language               <http://vocab.getty.edu/language/zh-Hant> , aat:300388116;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder          "2"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:term                  "風格與時代"@zh-Hant;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "風格與時代"@zh-Hant .
+
+<http://vocab.getty.edu/aat/term/1000886133-pt>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000886133";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000316>;
+        dc:language               <http://vocab.getty.edu/language/pt> , aat:300389115;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000109633>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000316>;
+        gvp:displayOrder          "8"^^xsd:positiveInteger;
+        gvp:qualifier             "hierarquia"@pt;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000109633>;
+        gvp:term                  "estilos e períodos"@pt;
+        gvp:termPOS               <http://vocab.getty.edu/term/POS/PluralNoun>;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "estilos e períodos (hierarquia)"@pt .
+
+<http://vocab.getty.edu/aat/term/1000015646-en>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000015646";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language               <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000094828>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000000>;
+        gvp:displayOrder          "1"^^xsd:positiveInteger;
+        gvp:qualifier             "hierarchy name"@en;
+        gvp:sourceNonPreferred    <http://vocab.getty.edu/aat/source/2000094828>;
+        gvp:term                  "Styles and Periods"@en;
+        gvp:termPOS               <http://vocab.getty.edu/term/POS/NeuterAdjectival>;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "Styles and Periods (hierarchy name)"@en .
+
+<http://vocab.getty.edu/aat/scopeNote/166564>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "A hierarquia de Estilos e períodos contém os nomes dos estilos de arte e arquitetura, períodos históricos, movimentos artísticos, nacionalidades, etnias e culturas (por exemplo, \"Renascença\", \"Ming\", \"Yoruba\", \"Celta\", \"Luís XIV , \"\" Italiano, \"\" Paleolítico \"). Relação com outras hierarquias: Termos para religiões, que podem ser considerados para descrever a cultura, são encontrados em Conceitos Associados. Termos para gêneros de arte, incluindo todas as artes não específicas de um determinado povo ou período (por exemplo, \"arte amadora\", \"poesia padrão\") são encontrados na hierarquia de conceitos associados; também aqui estão termos para abordagens gerais da arte (por exemplo, \"realismo\"), enquanto movimentos específicos nomeados após tais abordagens são encontrados aqui (por exemplo, \"Realista\")."@pt;
+        dc11:identifier  "166564";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000316>;
+        dc:language      <http://vocab.getty.edu/language/pt> , aat:300389115;
+        dc:source        <http://vocab.getty.edu/aat/source/2000109633> .
+
+<http://vocab.getty.edu/aat/scopeNote/144012>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "「風格與時代」層級收錄藝術及建築的風格名稱、歷史時期名稱、藝術運動名稱。至於用來做為「風格與時代」代稱的文化、民族、個人、地點等特定名稱，亦在收錄範圍（例如：約魯巴、凱特爾、路易十四）。用來指稱廣泛文化地區及國家的地理描述語亦在收錄範圍中。與其他層級的關係：如藝術類型之描述語（包括非屬特定民族或時期的藝術，例如：業餘藝術、擬形詩等），以及整體藝術法（例如：寫實主義），皆收錄於「關聯概念」層級。至於以這類藝術手法命名的藝術運動，則收錄於此項層級（例如：寫實主義藝術家）。"@zh-Hant;
+        dc11:identifier  "144012";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language      <http://vocab.getty.edu/language/zh-Hant> , aat:300388116 .
+
+<http://vocab.getty.edu/aat/scopeNote/97313>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "De hiërarchie van Stijlen en Perioden bevat de namen van kunst- en architectuurstijlen, historische perioden en kunststromingen, nationaliteiten en culturen (bijvoorbeeld 'renaissance', 'Ming', 'Joruba (cultuur of stijl),'Keltisch' of 'Lodewijk-XIV-stijl', ‘Italiaans’en ‘Paleolitisch’). Relatie met andere hiërarchieën: termen voor religies, die ook als cultuur beschreven kunnen worden, zijn te vinden in hiërarchie van Abstracte Begrippen. Termen voor kunstgenres, inclusief alle kunst die niet specifiek is voor een bepaald volk of periode (bijvoorbeeld ‘amateurkunst’ of ‘beeldende poëzie’), zijn te vinden in de hiërarchie van Abstracte Begrippen, net als descriptoren voor algemene benaderingen van kunst (bijvoorbeeld ‘realisme (artistieke  vorm of uiting)’), terwijl specifieke stromingen die naar dergelijke benaderingen zijn genoemd in deze hiërarchie  te vinden zijn (bijvoorbeeld ‘Realistisch (moderne Europese beeldende kunststijl)’."@nl;
+        dc11:identifier  "97313";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000205>;
+        dc:language      <http://vocab.getty.edu/language/nl> , aat:300388256;
+        dc:source        <http://vocab.getty.edu/aat/source/2000113770> , <http://vocab.getty.edu/aat/source/2000099099> .
+
+<http://vocab.getty.edu/aat/scopeNote/61766>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "La jerarquía de los estilos y de los períodos contiene los nombres de los estilos del arte y de la arquitectura, de los períodos históricos y de los movimientos del arte. Los nombres de culturas, de la gente, de individuos y de sitios son incluidos solamente si señalan los estilos o los períodos (yoruba de e.g.g., céltico, Luis XIV). Los descriptores geográficos se incluyen solamente para las amplias regiones y naciones culturales. En relación a otras jerarquías: Los descriptores para los géneros de arte, incluyendo todas las artes no específicas de una gente o a un período dado (arte aficionado de e.g.g., poesía del patrón) se encuentran en la jerarquía asociada de los conceptos, al igual que los descriptores para los acercamientos generales al arte (e.g., realismo) mientras que los movimientos específicos nombrados después de que tales acercamientos se encuentren aquí (e.g., realista)."@es;
+        dc11:identifier  "61766";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000131>;
+        dc:language      <http://vocab.getty.edu/language/es> , aat:300389311;
+        dc:source        <http://vocab.getty.edu/aat/source/2000051034> .
+
+<http://vocab.getty.edu/aat/scopeNote/54437>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "The Styles and Periods hierarchy contains the names of art and architecture styles, historical periods, art movements, nationalities, ethnicities, and cultures (e.g., \"Renaissance,\" \"Ming,\" \"Yoruba,\" \"Celtic,\" \"Louis XIV,\" \"Italian,\" \"Paleolithic\"). Relation to other hierarchies: Terms for religions, which may be considered to describe culture, are found in Associated Concepts. Terms for genres of art, including all the arts not specific to a given people or period (e.g., \"amateur art,\" \"pattern poetry\") are found in the Associated Concepts hierarchy; also here are terms for general approaches to art (e.g., \"realism\") while specific movements named after such approaches are found here (e.g., \"Realist\")."@en;
+        dc11:identifier  "54437";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language      <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source        <http://vocab.getty.edu/aat/source/2000099620> .
+
+<http://vocab.getty.edu/aat/rev/5005376579>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "estilos e períodos (1000886133), Language: Portuguese 70543; Descriptor added; Preferred term for language added";
+        dc11:type           "term added";
+        prov:startedAtTime  "2022-02-15T07:56:35"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5005376578>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "estilos e períodos (1000886133);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2022-02-15T07:56:35"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004414228>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "feng ko yü shih tai (1000756970);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2017-08-25T11:11:38"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004414227>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "fēng gé yǔ shí dài (1000756969);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2017-08-25T11:11:38"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004414226>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "feng ge yu shi dai (1000756968);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2017-08-25T11:11:38"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004414225>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "風格與時代 (1000756967);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2017-08-25T11:11:38"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004043676>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Stijlen en Perioden {TOPTERM} (1000642949);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2016-02-26T09:07:30"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004043288>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Stijlen en Perioden (1000610084);";
+        dc11:type           "term deleted";
+        prov:startedAtTime  "2016-02-26T09:00:31"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5003762281>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Stijlen en Perioden {TOPTERM} (1000610084);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2014-12-05T08:39:03"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5003760879>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Stijlen en Perioden (1000472234);";
+        dc11:type           "term deleted";
+        prov:startedAtTime  "2014-12-05T08:32:50"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5002893837>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Stijlen en Perioden {TOPTERM} (1000472234);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2011-01-07T23:13:53"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5002243078>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "estilos y periodos (1000420015);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2010-04-23T00:33:00"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001681541>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Styles et périodes (1000313834);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2007-10-26T09:04:52"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001055760>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Styles and Periods (1000015646);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2001-07-26T21:59:27"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5005026080>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Language: Dutch (70261)";
+        dc11:type           "note updated";
+        prov:startedAtTime  "2020-07-24T11:17:25"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004830738>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Language: English (70051)";
+        dc11:type           "note updated";
+        prov:startedAtTime  "2019-09-25T14:41:49"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004029181>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Language: English (70051)";
+        dc11:type           "note updated";
+        prov:startedAtTime  "2015-07-03T16:22:08"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004029017>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "NB: change re inclusion of cultures. English (70051)";
+        dc11:type           "note updated";
+        prov:startedAtTime  "2015-07-03T09:33:26"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004029015>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "Language: English (70051)";
+        dc11:type           "note updated";
+        prov:startedAtTime  "2015-07-03T09:32:46"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001491278>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "note created";
+        prov:startedAtTime  "2002-02-27T10:24:53"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5000004987>
+        rdf:type            prov:Create , prov:Activity;
+        dc11:description    "";
+        dc11:type           "created";
+        prov:startedAtTime  "1988-01-01T00:00:00"^^xsd:dateTime .
+
+<http://vocab.getty.edu/aat/rev/5004830737>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2019-09-25T14:41:48"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004029180>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2015-07-03T16:22:08"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004029016>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2015-07-03T09:33:25"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004029014>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2015-07-03T09:32:46"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5004028562>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2015-06-26T10:39:59"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5003790486>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2015-01-05T14:37:05"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5003693267>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2014-09-02T14:43:30"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5003049962>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2011-09-20T15:37:16"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001694301>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2007-11-29T11:07:28"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001685300>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2007-10-26T09:05:46"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001537008>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2004-09-30T09:49:26"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001537007>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2004-09-30T09:35:31"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001497252>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2003-04-01T16:04:01"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+<http://vocab.getty.edu/aat/rev/5001491277>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2002-02-27T10:24:53"^^xsd:dateTime;
+        prov:used           aat:300015646 .
+
+aat:300015646  rdf:type               gvp:Subject , <http://purl.org/iso25964/skos-thes#ThesaurusArray> , gvp:Hierarchy , skos:Collection , skos:OrderedCollection;
+        rdfs:label                    "Stijlen en Perioden"@nl , "風格與時代"@zh-Hant , "estilos y periodos"@es , "Styles and Periods (hierarchy name)"@en , "fēng gé yǔ shí dài"@zh-Latn-pinyin-x-hanyu , "feng ge yu shi dai"@zh-Latn-pinyin-x-notone , "feng ko yü shih tai"@zh-Latn-wadegile , "Styles et périodes"@fr , "estilos e períodos (hierarquia)"@pt;
+        rdfs:seeAlso                  <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300015646>;
+        cc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc11:identifier               "300015646";
+        dc:contributor                <http://vocab.getty.edu/aat/contrib/10000159> , <http://vocab.getty.edu/aat/contrib/10000316> , <http://vocab.getty.edu/aat/contrib/10000250> , <http://vocab.getty.edu/aat/contrib/10000205> , <http://vocab.getty.edu/aat/contrib/10000131> , <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:created                    "1988-01-01T00:00:00"^^xsd:dateTime;
+        dc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc:modified                   "2016-02-26T09:07:30"^^xsd:dateTime , "2016-02-26T09:00:31"^^xsd:dateTime , "2014-12-05T08:39:03"^^xsd:dateTime , "2014-12-05T08:32:50"^^xsd:dateTime , "2011-01-07T23:13:53"^^xsd:dateTime , "2007-10-26T09:04:52"^^xsd:dateTime , "2019-09-25T14:41:49"^^xsd:dateTime , "2015-07-03T09:33:26"^^xsd:dateTime , "2020-07-24T11:17:25"^^xsd:dateTime , "2001-07-26T21:59:27"^^xsd:dateTime , "2022-02-15T07:56:37"^^xsd:dateTime , "2017-08-25T11:11:43"^^xsd:dateTime , "2011-01-07T23:14:15"^^xsd:dateTime , "2010-04-23T00:33:19"^^xsd:dateTime , "2017-08-25T11:11:38"^^xsd:dateTime , "2010-04-23T00:33:00"^^xsd:dateTime , "2022-02-15T07:56:35"^^xsd:dateTime , "2019-09-25T14:41:48"^^xsd:dateTime , "2015-07-03T16:22:08"^^xsd:dateTime , "2015-07-03T09:33:25"^^xsd:dateTime , "2015-07-03T09:32:46"^^xsd:dateTime , "2015-06-26T10:39:59"^^xsd:dateTime , "2015-01-05T14:37:05"^^xsd:dateTime , "2014-09-02T14:43:30"^^xsd:dateTime , "2011-09-20T15:37:16"^^xsd:dateTime , "2007-11-29T11:07:28"^^xsd:dateTime , "2004-09-30T09:49:26"^^xsd:dateTime , "2004-09-30T09:35:31"^^xsd:dateTime , "2003-04-01T16:04:01"^^xsd:dateTime , "2002-02-27T10:24:53"^^xsd:dateTime , "2007-10-26T09:05:46"^^xsd:dateTime;
+        dc:source                     <http://vocab.getty.edu/aat/source/2000109633> , <http://vocab.getty.edu/aat/source/2000099099> , <http://vocab.getty.edu/aat/source/2000048434>;
+        void:inDataset                <http://vocab.getty.edu/dataset/aat>;
+        gvp:broader                   aat:300264088;
+        gvp:broaderExtended           aat:300264088;
+        gvp:broaderGeneric            aat:300264088;
+        gvp:broaderGenericExtended    aat:300264088;
+        gvp:broaderPreferred          aat:300264088;
+        gvp:broaderPreferredExtended  aat:300264088;
+        gvp:parentString              "Styles and Periods Facet";
+        gvp:parentStringAbbrev        "Styles and Periods Facet";
+        gvp:prefLabelGVP              <http://vocab.getty.edu/aat/term/1000015646-en>;
+        skos:changeNote               <http://vocab.getty.edu/aat/rev/5005376579> , <http://vocab.getty.edu/aat/rev/5005376578> , <http://vocab.getty.edu/aat/rev/5004414228> , <http://vocab.getty.edu/aat/rev/5004414227> , <http://vocab.getty.edu/aat/rev/5004414226> , <http://vocab.getty.edu/aat/rev/5004414225> , <http://vocab.getty.edu/aat/rev/5004043676> , <http://vocab.getty.edu/aat/rev/5004043288> , <http://vocab.getty.edu/aat/rev/5003762281> , <http://vocab.getty.edu/aat/rev/5003760879> , <http://vocab.getty.edu/aat/rev/5002893837> , <http://vocab.getty.edu/aat/rev/5002243078> , <http://vocab.getty.edu/aat/rev/5001681541> , <http://vocab.getty.edu/aat/rev/5001055760> , <http://vocab.getty.edu/aat/rev/5005026080> , <http://vocab.getty.edu/aat/rev/5004830738> , <http://vocab.getty.edu/aat/rev/5004029181> , <http://vocab.getty.edu/aat/rev/5004029017> , <http://vocab.getty.edu/aat/rev/5004029015> , <http://vocab.getty.edu/aat/rev/5001491278> , <http://vocab.getty.edu/aat/rev/5005376591> , <http://vocab.getty.edu/aat/rev/5004414241> , <http://vocab.getty.edu/aat/rev/5002893843> , <http://vocab.getty.edu/aat/rev/5002243083> , <http://vocab.getty.edu/aat/rev/5000004987> , <http://vocab.getty.edu/aat/rev/5004830737> , <http://vocab.getty.edu/aat/rev/5004029180> , <http://vocab.getty.edu/aat/rev/5004029016> , <http://vocab.getty.edu/aat/rev/5004029014> , <http://vocab.getty.edu/aat/rev/5004028562> , <http://vocab.getty.edu/aat/rev/5003790486> , <http://vocab.getty.edu/aat/rev/5003693267> , <http://vocab.getty.edu/aat/rev/5003049962> , <http://vocab.getty.edu/aat/rev/5001694301> , <http://vocab.getty.edu/aat/rev/5001685300> , <http://vocab.getty.edu/aat/rev/5001537008> , <http://vocab.getty.edu/aat/rev/5001537007> , <http://vocab.getty.edu/aat/rev/5001497252> , <http://vocab.getty.edu/aat/rev/5001491277>;
+        skos:inScheme                 aat:;
+        skos:member                   aat:300389850 , aat:300310538 , aat:300111079 , aat:300111078;
+        skos:memberList               aat:300015646-list-300111078;
+        skos:notation                 "F.FL";
+        skos:note                     <http://vocab.getty.edu/aat/rev/5005376579> , <http://vocab.getty.edu/aat/rev/5005376578> , <http://vocab.getty.edu/aat/rev/5004414228> , <http://vocab.getty.edu/aat/rev/5004414227> , <http://vocab.getty.edu/aat/rev/5004414226> , <http://vocab.getty.edu/aat/rev/5004414225> , <http://vocab.getty.edu/aat/rev/5004043676> , <http://vocab.getty.edu/aat/rev/5004043288> , <http://vocab.getty.edu/aat/rev/5003762281> , <http://vocab.getty.edu/aat/rev/5003760879> , <http://vocab.getty.edu/aat/rev/5002893837> , <http://vocab.getty.edu/aat/rev/5002243078> , <http://vocab.getty.edu/aat/rev/5001681541> , <http://vocab.getty.edu/aat/rev/5001055760> , <http://vocab.getty.edu/aat/rev/5005026080> , <http://vocab.getty.edu/aat/rev/5004830738> , <http://vocab.getty.edu/aat/rev/5004029181> , <http://vocab.getty.edu/aat/rev/5004029017> , <http://vocab.getty.edu/aat/rev/5004029015> , <http://vocab.getty.edu/aat/rev/5001491278> , <http://vocab.getty.edu/aat/rev/5005376591> , <http://vocab.getty.edu/aat/rev/5004414241> , <http://vocab.getty.edu/aat/rev/5002893843> , <http://vocab.getty.edu/aat/rev/5002243083> , <http://vocab.getty.edu/aat/rev/5000004987> , <http://vocab.getty.edu/aat/rev/5004830737> , <http://vocab.getty.edu/aat/rev/5004029180> , <http://vocab.getty.edu/aat/rev/5004029016> , <http://vocab.getty.edu/aat/rev/5004029014> , <http://vocab.getty.edu/aat/rev/5004028562> , <http://vocab.getty.edu/aat/rev/5003790486> , <http://vocab.getty.edu/aat/rev/5003693267> , <http://vocab.getty.edu/aat/rev/5003049962> , <http://vocab.getty.edu/aat/rev/5001694301> , <http://vocab.getty.edu/aat/rev/5001685300> , <http://vocab.getty.edu/aat/rev/5001537008> , <http://vocab.getty.edu/aat/rev/5001537007> , <http://vocab.getty.edu/aat/rev/5001497252> , <http://vocab.getty.edu/aat/rev/5001491277> , <http://vocab.getty.edu/aat/scopeNote/166564> , <http://vocab.getty.edu/aat/scopeNote/144012> , <http://vocab.getty.edu/aat/scopeNote/97313> , <http://vocab.getty.edu/aat/scopeNote/61766> , <http://vocab.getty.edu/aat/scopeNote/54437>;
+        skos:prefLabel                "estilos e períodos (hierarquia)"@pt , "Styles et périodes"@fr , "feng ko yü shih tai"@zh-Latn-wadegile , "feng ge yu shi dai"@zh-Latn-pinyin-x-notone , "fēng gé yǔ shí dài"@zh-Latn-pinyin-x-hanyu , "Styles and Periods (hierarchy name)"@en , "estilos y periodos"@es , "風格與時代"@zh-Hant , "Stijlen en Perioden"@nl;
+        skos:scopeNote                <http://vocab.getty.edu/aat/scopeNote/166564> , <http://vocab.getty.edu/aat/scopeNote/144012> , <http://vocab.getty.edu/aat/scopeNote/97313> , <http://vocab.getty.edu/aat/scopeNote/61766> , <http://vocab.getty.edu/aat/scopeNote/54437>;
+        skosxl:prefLabel              <http://vocab.getty.edu/aat/term/1000420015-es> , <http://vocab.getty.edu/aat/term/1000313834-fr> , <http://vocab.getty.edu/aat/term/1000642949-nl> , <http://vocab.getty.edu/aat/term/1000756970-zh-Latn-wadegile> , <http://vocab.getty.edu/aat/term/1000756968-zh-Latn-pinyin-x-notone> , <http://vocab.getty.edu/aat/term/1000756969-zh-Latn-pinyin-x-hanyu> , <http://vocab.getty.edu/aat/term/1000756967-zh-Hant> , <http://vocab.getty.edu/aat/term/1000886133-pt> , <http://vocab.getty.edu/aat/term/1000015646-en>;
+        prov:wasGeneratedBy           <http://vocab.getty.edu/aat/rev/5000004987> .

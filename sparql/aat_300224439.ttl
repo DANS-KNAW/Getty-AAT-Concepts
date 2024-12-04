@@ -1,0 +1,325 @@
+PREFIX aat:     <http://vocab.getty.edu/aat/>
+PREFIX as:      <https://www.w3.org/ns/activitystreams#>
+PREFIX cc:      <http://creativecommons.org/ns#>
+PREFIX csvw:    <http://www.w3.org/ns/csvw#>
+PREFIX ctag:    <http://commontag.org/ns#>
+PREFIX dc:      <http://purl.org/dc/terms/>
+PREFIX dc11:    <http://purl.org/dc/elements/1.1/>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dqv:     <http://www.w3.org/ns/dqv#>
+PREFIX duv:     <https://www.w3.org/ns/duv#>
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+PREFIX gr:      <http://purl.org/goodrelations/v1#>
+PREFIX grddl:   <http://www.w3.org/2003/g/data-view#>
+PREFIX gvp:     <http://vocab.getty.edu/ontology#>
+PREFIX ical:    <http://www.w3.org/2002/12/cal/icaltzd#>
+PREFIX jsonld:  <http://www.w3.org/ns/json-ld#>
+PREFIX ldp:     <http://www.w3.org/ns/ldp#>
+PREFIX ma:      <http://www.w3.org/ns/ma-ont#>
+PREFIX oa:      <http://www.w3.org/ns/oa#>
+PREFIX odrl:    <http://www.w3.org/ns/odrl/2/>
+PREFIX og:      <http://ogp.me/ns#>
+PREFIX org:     <http://www.w3.org/ns/org#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX qb:      <http://purl.org/linked-data/cube#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfa:    <http://www.w3.org/ns/rdfa#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev:     <http://purl.org/stuff/rev#>
+PREFIX rif:     <http://www.w3.org/2007/rif#>
+PREFIX rr:      <http://www.w3.org/ns/r2rml#>
+PREFIX schema:  <http://schema.org/>
+PREFIX sd:      <http://www.w3.org/ns/sparql-service-description#>
+PREFIX sioc:    <http://rdfs.org/sioc/ns#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl:  <http://www.w3.org/2008/05/skos-xl#>
+PREFIX sosa:    <http://www.w3.org/ns/sosa/>
+PREFIX ssn:     <http://www.w3.org/ns/ssn/>
+PREFIX time:    <http://www.w3.org/2006/time#>
+PREFIX v:       <http://rdf.data-vocabulary.org/#>
+PREFIX vcard:   <http://www.w3.org/2006/vcard/ns#>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX wdr:     <http://www.w3.org/2007/05/powder#>
+PREFIX wdrs:    <http://www.w3.org/2007/05/powder-s#>
+PREFIX xhv:     <http://www.w3.org/1999/xhtml/vocab#>
+PREFIX xml:     <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<http://vocab.getty.edu/aat/term/1000273123-en>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000273123";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language                  <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000046682>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000000>;
+        gvp:displayOrder             "2"^^xsd:positiveInteger;
+        gvp:sourcePreferred          <http://vocab.getty.edu/aat/source/2000046682>;
+        gvp:term                     "defining"@en;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "defining"@en .
+
+<http://vocab.getty.edu/aat/source/2000048810-term-1000449619>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart> , <http://purl.org/ontology/bibo/Document>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000048810>;
+        <http://purl.org/ontology/bibo/locator>
+                "I:878" .
+
+<http://vocab.getty.edu/aat/source/2000093495-term-1000562270>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart> , <http://purl.org/ontology/bibo/Document>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000093495>;
+        <http://purl.org/ontology/bibo/locator>
+                "June 04, 2012" .
+
+<http://vocab.getty.edu/aat/source/2000093506-term-1000562270>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart> , <http://purl.org/ontology/bibo/Document>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000093506>;
+        <http://purl.org/ontology/bibo/locator>
+                "460" .
+
+<http://vocab.getty.edu/aat/source/2000093499-term-1000562270>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart> , <http://purl.org/ontology/bibo/Document>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000093499>;
+        <http://purl.org/ontology/bibo/locator>
+                "June 04, 2012" .
+
+<http://vocab.getty.edu/aat/source/2000024811-term-1000224439>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart> , <http://purl.org/ontology/bibo/Document>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000024811>;
+        <http://purl.org/ontology/bibo/locator>
+                "definition (logic)" .
+
+<http://vocab.getty.edu/aat/source/2000061889-term-1000224439>
+        rdf:type     <http://purl.org/ontology/bibo/DocumentPart> , <http://purl.org/ontology/bibo/Document>;
+        dc:isPartOf  <http://vocab.getty.edu/aat/source/2000061889>;
+        <http://purl.org/ontology/bibo/locator>
+                "Vol. 2, IND, Also IND 24, 27 re providing defs." .
+
+<http://vocab.getty.edu/aat/term/1000449619-es>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000449619";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000131>;
+        dc:language               <http://vocab.getty.edu/language/es> , aat:300389311;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000048810-term-1000449619>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000131>;
+        gvp:displayOrder          "8"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000048810-term-1000449619>;
+        gvp:term                  "definir"@es;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "definir"@es .
+
+<http://vocab.getty.edu/aat/term/1000504800-nl>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000504800";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000205>;
+        dc:language               <http://vocab.getty.edu/language/nl> , aat:300388256;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000113770> , <http://vocab.getty.edu/aat/source/2000052381>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000205>;
+        gvp:displayOrder          "7"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000113770>;
+        gvp:term                  "definiëren"@nl;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "definiëren"@nl .
+
+<http://vocab.getty.edu/aat/term/1000562273-zh-Latn-wadegile>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000562273";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language                  <http://vocab.getty.edu/language/zh-Latn-wadegile> , aat:300388121;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000052784>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder             "6"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred       <http://vocab.getty.edu/aat/source/2000052784>;
+        gvp:term                     "ting i"@zh-Latn-wadegile;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "ting i"@zh-Latn-wadegile .
+
+<http://vocab.getty.edu/aat/term/1000562272-zh-Latn-pinyin-x-notone>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000562272";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language                  <http://vocab.getty.edu/language/zh-Latn-pinyin-x-notone> , aat:300388118;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000052784>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder             "5"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred       <http://vocab.getty.edu/aat/source/2000052784>;
+        gvp:term                     "dìng yì"@zh-Latn-pinyin-x-notone;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "dìng yì"@zh-Latn-pinyin-x-notone .
+
+<http://vocab.getty.edu/aat/term/1000562271-zh-Latn-pinyin-x-hanyu>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000562271";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language                  <http://vocab.getty.edu/language/zh-Latn-pinyin-x-hanyu> , aat:300388117;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000052784>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder             "4"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred       <http://vocab.getty.edu/aat/source/2000052784>;
+        gvp:term                     "ding yi"@zh-Latn-pinyin-x-hanyu;
+        gvp:termType                 <http://vocab.getty.edu/term/type/UsedForTerm>;
+        skosxl:literalForm           "ding yi"@zh-Latn-pinyin-x-hanyu .
+
+<http://vocab.getty.edu/aat/term/1000562270-zh-Hant>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000562270";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language               <http://vocab.getty.edu/language/zh-Hant> , aat:300388116;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000093495-term-1000562270> , <http://vocab.getty.edu/aat/source/2000093506-term-1000562270> , <http://vocab.getty.edu/aat/source/2000093499-term-1000562270>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder          "3"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000093495-term-1000562270> , <http://vocab.getty.edu/aat/source/2000093506-term-1000562270> , <http://vocab.getty.edu/aat/source/2000093499-term-1000562270>;
+        gvp:term                  "定義"@zh-Hant;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "定義"@zh-Hant .
+
+<http://vocab.getty.edu/aat/term/1000224439-en>
+        rdf:type                      skosxl:Label;
+        dc11:identifier               "1000224439";
+        dc:contributor                <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language                   <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source                     <http://vocab.getty.edu/aat/source/2000046682> , <http://vocab.getty.edu/aat/source/2000047206> , <http://vocab.getty.edu/aat/source/2000061889-term-1000224439> , <http://vocab.getty.edu/aat/source/2000024811-term-1000224439>;
+        gvp:contributorPreferred      <http://vocab.getty.edu/aat/contrib/10000000>;
+        gvp:displayOrder              "1"^^xsd:positiveInteger;
+        gvp:sourceAlternatePreferred  <http://vocab.getty.edu/aat/source/2000046682>;
+        gvp:sourcePreferred           <http://vocab.getty.edu/aat/source/2000047206> , <http://vocab.getty.edu/aat/source/2000061889-term-1000224439> , <http://vocab.getty.edu/aat/source/2000024811-term-1000224439>;
+        gvp:term                      "definition"@en;
+        gvp:termType                  <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm            "definition"@en .
+
+<http://vocab.getty.edu/aat/scopeNote/113048>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "提供字詞意義的說明。"@zh-Hant;
+        dc11:identifier  "113048";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language      <http://vocab.getty.edu/language/zh-Hant> , aat:300388116;
+        dc:source        <http://vocab.getty.edu/aat/source/2000052784> .
+
+<http://vocab.getty.edu/aat/scopeNote/71512>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "Proporcionar definiciones de los significados de palabras o frases."@es;
+        dc11:identifier  "71512";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000131>;
+        dc:language      <http://vocab.getty.edu/language/es> , aat:300389311;
+        dc:source        <http://vocab.getty.edu/aat/source/2000051034> .
+
+<http://vocab.getty.edu/aat/scopeNote/87836>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "Het bepalen van de betekenis van woorden of uitdrukkingen."@nl;
+        dc11:identifier  "87836";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000205>;
+        dc:language      <http://vocab.getty.edu/language/nl> , aat:300388256;
+        dc:source        <http://vocab.getty.edu/aat/source/2000113770> , <http://vocab.getty.edu/aat/source/2000052381> .
+
+<http://vocab.getty.edu/aat/scopeNote/46020>
+        rdf:type         gvp:ScopeNote;
+        rdf:value        "Providing statements of the meanings of words or phrases."@en;
+        dc11:identifier  "46020";
+        dc:contributor   <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language      <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source        <http://vocab.getty.edu/aat/source/2000099620> .
+
+<http://vocab.getty.edu/aat/rev/5003448715>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "ting i (1000562273);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2013-03-29T10:09:50"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5003448714>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "dìng yì (1000562272);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2013-03-29T10:09:50"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5003448713>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "ding yi (1000562271);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2013-03-29T10:09:50"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5003448712>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "定義 (1000562270);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2013-03-29T10:09:50"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5002712525>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "definiëren (1000504800);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2011-01-07T14:53:49"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5002415899>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "definir (1000449619);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2010-04-23T04:10:24"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5001075244>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "defining (1000273123);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2001-07-26T22:00:20"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5001075243>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "definition (1000224439);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2001-07-26T22:00:20"^^xsd:dateTime;
+        prov:used           aat:300224439 .
+
+<http://vocab.getty.edu/aat/rev/5000018635>
+        rdf:type            prov:Create , prov:Activity;
+        dc11:description    "";
+        dc11:type           "created";
+        prov:startedAtTime  "1992-08-31T00:00:00"^^xsd:dateTime .
+
+<http://vocab.getty.edu/aat/rev/5000018633>
+        rdf:type            prov:Create , prov:Activity;
+        dc11:description    "";
+        dc11:type           "created";
+        prov:startedAtTime  "1992-08-31T00:00:00"^^xsd:dateTime .
+
+aat:300224439  rdf:type               gvp:Subject , skos:Concept , gvp:Concept;
+        rdfs:label                    "definition"@en , "defining"@en , "定義"@zh-Hant , "ding yi"@zh-Latn-pinyin-x-hanyu , "dìng yì"@zh-Latn-pinyin-x-notone , "ting i"@zh-Latn-wadegile , "definiëren"@nl , "definir"@es;
+        rdfs:seeAlso                  <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300224439>;
+        cc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc11:identifier               "300224439";
+        dc:contributor                <http://vocab.getty.edu/aat/contrib/10000250> , <http://vocab.getty.edu/aat/contrib/10000205> , <http://vocab.getty.edu/aat/contrib/10000131> , <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:created                    "1992-08-31T00:00:00"^^xsd:dateTime;
+        dc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc:modified                   "2011-01-07T14:53:49"^^xsd:dateTime , "2001-07-26T22:00:20"^^xsd:dateTime , "2013-03-29T10:09:51"^^xsd:dateTime , "2011-01-07T14:53:50"^^xsd:dateTime , "2010-04-23T04:10:24"^^xsd:dateTime , "2013-03-29T10:09:50"^^xsd:dateTime , "2010-04-23T04:10:25"^^xsd:dateTime;
+        dc:source                     <http://vocab.getty.edu/aat/source/2000052381>;
+        <http://purl.org/iso25964/skos-thes#broaderGeneric>
+                aat:300069734;
+        void:inDataset                <http://vocab.getty.edu/dataset/aat>;
+        gvp:broader                   aat:300069734;
+        gvp:broaderExtended           aat:300054593 , aat:300264090 , aat:300138088 , aat:300069734 , aat:300069727;
+        gvp:broaderGeneric            aat:300069734;
+        gvp:broaderGenericExtended    aat:300054593 , aat:300264090 , aat:300138088 , aat:300069734 , aat:300069727;
+        gvp:broaderPreferred          aat:300069734;
+        gvp:broaderPreferredExtended  aat:300054593 , aat:300264090 , aat:300138088 , aat:300069734 , aat:300069727;
+        gvp:displayOrder              "9"^^xsd:positiveInteger;
+        gvp:parentString              "analytical functions, <functions by general context>, functions (activities), Functions (hierarchy name), Activities Facet";
+        gvp:parentStringAbbrev        "analytical functions, <functions by general context>, ... Activities Facet";
+        gvp:prefLabelGVP              <http://vocab.getty.edu/aat/term/1000224439-en>;
+        gvp:prefLabelLoC              <http://vocab.getty.edu/aat/term/1000224439-en>;
+        skos:altLabel                 "defining"@en;
+        skos:broader                  aat:300069734;
+        skos:broaderTransitive        aat:300138088 , aat:300069734;
+        skos:changeNote               <http://vocab.getty.edu/aat/rev/5003448715> , <http://vocab.getty.edu/aat/rev/5003448714> , <http://vocab.getty.edu/aat/rev/5003448713> , <http://vocab.getty.edu/aat/rev/5003448712> , <http://vocab.getty.edu/aat/rev/5002712525> , <http://vocab.getty.edu/aat/rev/5002415899> , <http://vocab.getty.edu/aat/rev/5001075244> , <http://vocab.getty.edu/aat/rev/5001075243> , <http://vocab.getty.edu/aat/rev/5003448728> , <http://vocab.getty.edu/aat/rev/5002712531> , <http://vocab.getty.edu/aat/rev/5002415904> , <http://vocab.getty.edu/aat/rev/5000018635> , <http://vocab.getty.edu/aat/rev/5000018633>;
+        skos:inScheme                 aat:;
+        skos:note                     <http://vocab.getty.edu/aat/rev/5003448715> , <http://vocab.getty.edu/aat/rev/5003448714> , <http://vocab.getty.edu/aat/rev/5003448713> , <http://vocab.getty.edu/aat/rev/5003448712> , <http://vocab.getty.edu/aat/rev/5002712525> , <http://vocab.getty.edu/aat/rev/5002415899> , <http://vocab.getty.edu/aat/rev/5001075244> , <http://vocab.getty.edu/aat/rev/5001075243> , <http://vocab.getty.edu/aat/rev/5003448728> , <http://vocab.getty.edu/aat/rev/5002712531> , <http://vocab.getty.edu/aat/rev/5002415904> , <http://vocab.getty.edu/aat/rev/5000018635> , <http://vocab.getty.edu/aat/rev/5000018633> , <http://vocab.getty.edu/aat/scopeNote/113048> , <http://vocab.getty.edu/aat/scopeNote/71512> , <http://vocab.getty.edu/aat/scopeNote/87836> , <http://vocab.getty.edu/aat/scopeNote/46020>;
+        skos:prefLabel                "definir"@es , "definiëren"@nl , "ting i"@zh-Latn-wadegile , "dìng yì"@zh-Latn-pinyin-x-notone , "ding yi"@zh-Latn-pinyin-x-hanyu , "定義"@zh-Hant , "definition"@en;
+        skos:scopeNote                <http://vocab.getty.edu/aat/scopeNote/113048> , <http://vocab.getty.edu/aat/scopeNote/71512> , <http://vocab.getty.edu/aat/scopeNote/87836> , <http://vocab.getty.edu/aat/scopeNote/46020>;
+        skosxl:altLabel               <http://vocab.getty.edu/aat/term/1000273123-en>;
+        skosxl:prefLabel              <http://vocab.getty.edu/aat/term/1000449619-es> , <http://vocab.getty.edu/aat/term/1000504800-nl> , <http://vocab.getty.edu/aat/term/1000562273-zh-Latn-wadegile> , <http://vocab.getty.edu/aat/term/1000562272-zh-Latn-pinyin-x-notone> , <http://vocab.getty.edu/aat/term/1000562271-zh-Latn-pinyin-x-hanyu> , <http://vocab.getty.edu/aat/term/1000562270-zh-Hant> , <http://vocab.getty.edu/aat/term/1000224439-en>;
+        prov:wasGeneratedBy           <http://vocab.getty.edu/aat/rev/5000018635> , <http://vocab.getty.edu/aat/rev/5000018633> .

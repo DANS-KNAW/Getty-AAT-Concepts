@@ -1,0 +1,201 @@
+PREFIX aat:     <http://vocab.getty.edu/aat/>
+PREFIX as:      <https://www.w3.org/ns/activitystreams#>
+PREFIX cc:      <http://creativecommons.org/ns#>
+PREFIX csvw:    <http://www.w3.org/ns/csvw#>
+PREFIX ctag:    <http://commontag.org/ns#>
+PREFIX dc:      <http://purl.org/dc/terms/>
+PREFIX dc11:    <http://purl.org/dc/elements/1.1/>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dqv:     <http://www.w3.org/ns/dqv#>
+PREFIX duv:     <https://www.w3.org/ns/duv#>
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+PREFIX gr:      <http://purl.org/goodrelations/v1#>
+PREFIX grddl:   <http://www.w3.org/2003/g/data-view#>
+PREFIX gvp:     <http://vocab.getty.edu/ontology#>
+PREFIX ical:    <http://www.w3.org/2002/12/cal/icaltzd#>
+PREFIX jsonld:  <http://www.w3.org/ns/json-ld#>
+PREFIX ldp:     <http://www.w3.org/ns/ldp#>
+PREFIX ma:      <http://www.w3.org/ns/ma-ont#>
+PREFIX oa:      <http://www.w3.org/ns/oa#>
+PREFIX odrl:    <http://www.w3.org/ns/odrl/2/>
+PREFIX og:      <http://ogp.me/ns#>
+PREFIX org:     <http://www.w3.org/ns/org#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX qb:      <http://purl.org/linked-data/cube#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfa:    <http://www.w3.org/ns/rdfa#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rev:     <http://purl.org/stuff/rev#>
+PREFIX rif:     <http://www.w3.org/2007/rif#>
+PREFIX rr:      <http://www.w3.org/ns/r2rml#>
+PREFIX schema:  <http://schema.org/>
+PREFIX sd:      <http://www.w3.org/ns/sparql-service-description#>
+PREFIX sioc:    <http://rdfs.org/sioc/ns#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl:  <http://www.w3.org/2008/05/skos-xl#>
+PREFIX sosa:    <http://www.w3.org/ns/sosa/>
+PREFIX ssn:     <http://www.w3.org/ns/ssn/>
+PREFIX time:    <http://www.w3.org/2006/time#>
+PREFIX v:       <http://rdf.data-vocabulary.org/#>
+PREFIX vcard:   <http://www.w3.org/2006/vcard/ns#>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX wdr:     <http://www.w3.org/2007/05/powder#>
+PREFIX wdrs:    <http://www.w3.org/2007/05/powder-s#>
+PREFIX xhv:     <http://www.w3.org/1999/xhtml/vocab#>
+PREFIX xml:     <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+aat:300022097-list-300266744
+        rdf:type   rdf:List;
+        rdf:first  aat:300266744;
+        rdf:rest   aat:300022097-list-300444321 .
+
+<http://vocab.getty.edu/aat/term/1000490547-nl>
+        rdf:type                     skosxl:Label;
+        dc11:identifier              "1000490547";
+        dc:contributor               <http://vocab.getty.edu/aat/contrib/10000205>;
+        dc:language                  <http://vocab.getty.edu/language/nl> , aat:300388256;
+        dc:source                    <http://vocab.getty.edu/aat/source/2000113770> , <http://vocab.getty.edu/aat/source/2000099099>;
+        gvp:contributorNonPreferred  <http://vocab.getty.edu/aat/contrib/10000205>;
+        gvp:displayOrder             "4"^^xsd:positiveInteger;
+        gvp:term                     "stijl en periode naar algemeen tijdperk"@nl;
+        gvp:termType                 <http://vocab.getty.edu/term/type/AlternateDescriptor>;
+        skosxl:literalForm           "<stijl en periode naar algemeen tijdperk>"@nl .
+
+<http://vocab.getty.edu/aat/term/1000437271-es>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000437271";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000131>;
+        dc:language               <http://vocab.getty.edu/language/es> , aat:300389311;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000051034>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000131>;
+        gvp:displayOrder          "5"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000051034>;
+        gvp:term                  "estilos y períodos por época general"@es;
+        gvp:termPOS               <http://vocab.getty.edu/term/POS/NeuterAdjectival>;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "<estilos y períodos por época general>"@es .
+
+<http://vocab.getty.edu/aat/term/1000490546-nl>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000490546";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000205>;
+        dc:language               <http://vocab.getty.edu/language/nl> , aat:300388256;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000113770> , <http://vocab.getty.edu/aat/source/2000099099>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000205>;
+        gvp:displayOrder          "3"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000113770>;
+        gvp:term                  "stijlen en perioden naar algemeen tijdperk"@nl;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "<stijlen en perioden naar algemeen tijdperk>"@nl .
+
+<http://vocab.getty.edu/aat/term/1000771047-zh-Hant>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000771047";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000250>;
+        dc:language               <http://vocab.getty.edu/language/zh-Hant> , aat:300388116;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000250>;
+        gvp:displayOrder          "2"^^xsd:positiveInteger;
+        gvp:sourcePreferred       <http://vocab.getty.edu/aat/source/2000079740>;
+        gvp:term                  "依一般年代區分之風格與時代"@zh-Hant;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "<依一般年代區分之風格與時代>"@zh-Hant .
+
+<http://vocab.getty.edu/aat/term/1000111078-en>
+        rdf:type                  skosxl:Label;
+        dc11:identifier           "1000111078";
+        dc:contributor            <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:language               <http://vocab.getty.edu/language/en> , aat:300388277;
+        dc:source                 <http://vocab.getty.edu/aat/source/2000094828>;
+        gvp:contributorPreferred  <http://vocab.getty.edu/aat/contrib/10000000>;
+        gvp:displayOrder          "1"^^xsd:positiveInteger;
+        gvp:sourceNonPreferred    <http://vocab.getty.edu/aat/source/2000094828>;
+        gvp:term                  "styles, periods, and cultures by general era"@en;
+        gvp:termPOS               <http://vocab.getty.edu/term/POS/NeuterAdjectival>;
+        gvp:termType              <http://vocab.getty.edu/term/type/Descriptor>;
+        skosxl:literalForm        "<styles, periods, and cultures by general era>"@en .
+
+<http://vocab.getty.edu/aat/rev/5004361474>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "依一般年代區分之風格與時代 (1000771047);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2017-08-25T10:42:20"^^xsd:dateTime;
+        prov:used           aat:300111078 .
+
+<http://vocab.getty.edu/aat/rev/5002790489>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "stijl en periode naar algemeen tijdperk (1000490547);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2011-01-07T18:00:58"^^xsd:dateTime;
+        prov:used           aat:300111078 .
+
+<http://vocab.getty.edu/aat/rev/5002790488>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "stijlen en perioden naar algemeen tijdperk (1000490546);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2011-01-07T18:00:58"^^xsd:dateTime;
+        prov:used           aat:300111078 .
+
+<http://vocab.getty.edu/aat/rev/5002361477>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "estilos y períodos por época general (1000437271);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2010-04-23T02:48:40"^^xsd:dateTime;
+        prov:used           aat:300111078 .
+
+<http://vocab.getty.edu/aat/rev/5001055761>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "styles and periods by general era (1000111078);";
+        dc11:type           "term added";
+        prov:startedAtTime  "2001-07-26T21:59:27"^^xsd:dateTime;
+        prov:used           aat:300111078 .
+
+<http://vocab.getty.edu/aat/rev/5000004988>
+        rdf:type            prov:Create , prov:Activity;
+        dc11:description    "";
+        dc11:type           "created";
+        prov:startedAtTime  "1988-01-01T00:00:00"^^xsd:dateTime .
+
+<http://vocab.getty.edu/aat/rev/5003551128>
+        rdf:type            prov:Modify , prov:Activity;
+        dc11:description    "";
+        dc11:type           "updated";
+        prov:startedAtTime  "2014-01-09T13:59:18"^^xsd:dateTime;
+        prov:used           aat:300111078 .
+
+aat:300111078  rdf:type               gvp:Subject , gvp:GuideTerm , <http://purl.org/iso25964/skos-thes#ThesaurusArray> , skos:Collection;
+        rdfs:label                    "<styles, periods, and cultures by general era>"@en , "<依一般年代區分之風格與時代>"@zh-Hant , "<stijlen en perioden naar algemeen tijdperk>"@nl , "<stijl en periode naar algemeen tijdperk>"@nl , "<estilos y períodos por época general>"@es;
+        rdfs:seeAlso                  <http://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300111078>;
+        cc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc11:identifier               "300111078";
+        dc:contributor                <http://vocab.getty.edu/aat/contrib/10000250> , <http://vocab.getty.edu/aat/contrib/10000205> , <http://vocab.getty.edu/aat/contrib/10000131> , <http://vocab.getty.edu/aat/contrib/10000000>;
+        dc:created                    "1988-01-01T00:00:00"^^xsd:dateTime;
+        dc:license                    <http://opendatacommons.org/licenses/by/1.0/>;
+        dc:modified                   "2011-01-07T18:00:58"^^xsd:dateTime , "2001-07-26T21:59:27"^^xsd:dateTime , "2017-08-25T10:42:21"^^xsd:dateTime , "2014-01-09T13:59:18"^^xsd:dateTime , "2017-08-25T10:42:20"^^xsd:dateTime , "2010-04-23T02:48:40"^^xsd:dateTime , "2010-04-23T02:48:41"^^xsd:dateTime , "2011-01-07T18:01:00"^^xsd:dateTime;
+        dc:source                     <http://vocab.getty.edu/aat/source/2000099099>;
+        void:inDataset                <http://vocab.getty.edu/dataset/aat>;
+        gvp:broader                   aat:300015646;
+        gvp:broaderExtended           aat:300015646 , aat:300264088;
+        gvp:broaderGeneric            aat:300015646;
+        gvp:broaderGenericExtended    aat:300015646 , aat:300264088;
+        gvp:broaderPreferred          aat:300015646;
+        gvp:broaderPreferredExtended  aat:300015646 , aat:300264088;
+        gvp:displayOrder              "1"^^xsd:positiveInteger;
+        gvp:parentString              "Styles and Periods (hierarchy name), Styles and Periods Facet";
+        gvp:parentStringAbbrev        "Styles and Periods (hierarchy name), Styles and Periods Facet";
+        gvp:prefLabelGVP              <http://vocab.getty.edu/aat/term/1000111078-en>;
+        skos:altLabel                 "<stijl en periode naar algemeen tijdperk>"@nl;
+        skos:changeNote               <http://vocab.getty.edu/aat/rev/5004361474> , <http://vocab.getty.edu/aat/rev/5002790489> , <http://vocab.getty.edu/aat/rev/5002790488> , <http://vocab.getty.edu/aat/rev/5002361477> , <http://vocab.getty.edu/aat/rev/5001055761> , <http://vocab.getty.edu/aat/rev/5004361481> , <http://vocab.getty.edu/aat/rev/5002790496> , <http://vocab.getty.edu/aat/rev/5002361481> , <http://vocab.getty.edu/aat/rev/5000004988> , <http://vocab.getty.edu/aat/rev/5003551128>;
+        skos:closeMatch               <http://www.wikidata.org/entity/Q56147775> , aat:300111078;
+        skos:exactMatch               <http://www.wikidata.org/entity/Q56147775> , aat:300111078;
+        skos:inScheme                 aat:;
+        skos:mappingRelation          <http://www.wikidata.org/entity/Q56147775> , aat:300111078;
+        skos:member                   aat:300106723 , aat:300019280 , aat:300019257 , aat:300312378 , aat:300444999 , aat:300264736 , aat:300386009 , aat:300443463 , aat:300391448 , aat:300391250 , aat:300393217 , aat:300444349 , aat:300266744 , aat:300106716 , aat:300264737 , aat:300443128 , aat:300404836 , aat:300106711 , aat:300444342;
+        skos:note                     <http://vocab.getty.edu/aat/rev/5004361474> , <http://vocab.getty.edu/aat/rev/5002790489> , <http://vocab.getty.edu/aat/rev/5002790488> , <http://vocab.getty.edu/aat/rev/5002361477> , <http://vocab.getty.edu/aat/rev/5001055761> , <http://vocab.getty.edu/aat/rev/5004361481> , <http://vocab.getty.edu/aat/rev/5002790496> , <http://vocab.getty.edu/aat/rev/5002361481> , <http://vocab.getty.edu/aat/rev/5000004988> , <http://vocab.getty.edu/aat/rev/5003551128>;
+        skos:prefLabel                "<estilos y períodos por época general>"@es , "<stijlen en perioden naar algemeen tijdperk>"@nl , "<依一般年代區分之風格與時代>"@zh-Hant , "<styles, periods, and cultures by general era>"@en;
+        skosxl:altLabel               <http://vocab.getty.edu/aat/term/1000490547-nl>;
+        skosxl:prefLabel              <http://vocab.getty.edu/aat/term/1000437271-es> , <http://vocab.getty.edu/aat/term/1000490546-nl> , <http://vocab.getty.edu/aat/term/1000771047-zh-Hant> , <http://vocab.getty.edu/aat/term/1000111078-en>;
+        prov:wasGeneratedBy           <http://vocab.getty.edu/aat/rev/5000004988> .
