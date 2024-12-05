@@ -9,9 +9,7 @@
 
 - [Contributors to the Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/contributors.html)
 
-
 - [User's Guide to the AAT Data Releases](https://www.getty.edu/research/tools/vocabularies/aat/AAT-Users-Manual.pdf)
-
 
 - [AAT Hierarchy Display](https://www.getty.edu/vow/AATHierarchy?find=beauty&logic=AND&note=&page=1&subjectid=300000000)
 
