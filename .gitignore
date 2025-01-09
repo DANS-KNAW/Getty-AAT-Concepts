@@ -1,3 +1,7 @@
 .DS_Store 
 env/
 venv/
+explicit.zip
+full.zip
+scripts/aat/
+aat/
