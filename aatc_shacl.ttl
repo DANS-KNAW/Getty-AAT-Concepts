@@ -1,0 +1,31 @@
+ex:ConceptShape
+	a sh:NodeShape ;
+	sh:targetClass skos:Concept ;    
+	sh:property [                 
+		sh:path skos:prefLabel ;     
+		sh:maxCount 2 ;
+        sh:minCount 2 ;
+		sh:datatype xsd:string ;
+	] ;
+	sh:property [                 
+		sh:path skos:inScheme ;
+		sh:class skos:ConceptScheme ;
+		sh:nodeKind sh:IRI ;
+	] ;
+	sh:closed true ;
+
+ex:ConceptSchemeShape
+	a sh:NodeShape ;
+	sh:targetClass skos:ConceptScheme ;    
+    sh:property [
+        sh:path  ;
+    ]
+    sh:property [
+        sh:path  ;
+    ]
+    sh:property [
+        sh:path  ;
+    ]        
+    sh:property [
+        sh:path  ;
+    ] ;    
