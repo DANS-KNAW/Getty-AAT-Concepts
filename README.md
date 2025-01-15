@@ -38,6 +38,15 @@ Since our current use-cases, that called for the us of AAT concepts, were not co
 
 AATC was created via a `CONSTRUCT` SPARQL query in [aatc_generation.ipynb](aatc_generation.ipynb) that transforms the query result onto a new structure, saved in the RDF based turtle (.ttl) format and can be seen in [aatc.ttl](aatc.ttl) (~8Mb) 
 
+### AATC Validation
+
+To validate the [aatc.ttl](aatc.ttl) we will use the SHACL Shapes in [aatc_shacl.ttl](aatc_shacl.ttl).
+
+With [Apache Jena's SHACL command](https://jena.apache.org/documentation/shacl/)
+
+`shacl v --shapes aatc_shacl.ttl --data aatc.ttl`
+
+
 
 ### AATC Indexing in Skosmos
 
@@ -58,7 +67,6 @@ TODO
 
 
 # TODOs
-* issue: attc.ttl URI becomes http and does not use the prefix
 * index AATC in Skosmos and see what changes might be need to perform to aatc structure
 * rename repo landscape-analysis-Getty-AAT -> Getty-AAT
 * move repo to DANS-labs org
