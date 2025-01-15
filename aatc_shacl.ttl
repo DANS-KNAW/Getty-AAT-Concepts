@@ -12,7 +12,7 @@ ex:ConceptShape
 	sh:targetClass skos:Concept ;    
 	sh:property [                 
 		sh:path skos:prefLabel ;     
-		# sh:maxCount 2 ;
+		# sh:maxCount 2 ;   # note: there are terms with only EN labels
         # sh:minCount 2 ;
 		sh:datatype rdf:langString ;
 	] ;
@@ -26,25 +26,40 @@ ex:ConceptShape
 		sh:nodeKind sh:IRI ;
 		sh:hasValue skos:Concept
 	] ;
-	sh:closed true ;
+	sh:closed true .
 
-# ex:ConceptSchemeShape
-# 	a sh:NodeShape ;
-# 	sh:targetClass skos:ConceptScheme ;    
-#     sh:property [
-#         sh:path dct:title ;
-#     ]
-#     sh:property [
-#         sh:path rdfs:label ;
-#     ]
-#     sh:property [
-#         sh:path dct:creator ;
-#     ]        
-#     sh:property [
-#         sh:path dct:license ;
-#     ] ;
-#     sh:property [
-#         sh:path dct:created ;
-#     ] ;
-
-# prefix ex: needs replacement
+ex:ConceptSchemeShape
+	a sh:NodeShape ;
+	sh:targetClass skos:ConceptScheme ;
+    sh:property [
+        sh:path dct:title ;
+		sh:datatype rdf:langString ;
+    ] ;
+    sh:property [
+        sh:path rdfs:label ;
+		sh:datatype rdf:langString ;
+    ] ;
+    sh:property [
+        sh:path rdfs:comment ;
+		sh:datatype rdf:langString ;
+    ] ;	
+    sh:property [
+        sh:path dct:creator ;
+		sh:nodeKind sh:IRI ;
+    ] ;
+    sh:property [
+        sh:path dct:license ;
+		sh:nodeKind sh:IRI ;
+    ] ;
+    sh:property [
+        sh:path dct:created ;
+		sh:nodeKind sh:Literal ;
+		sh:datatype xsd:date ;
+    ] ;
+	sh:property [                 
+		sh:path rdf:type ;
+		sh:nodeKind sh:IRI ;
+		sh:hasValue skos:ConceptScheme
+	] ;	
+	sh:closed true . 
+	
