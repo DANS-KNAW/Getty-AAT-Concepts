@@ -30,7 +30,7 @@ Result: [aatc.ttl](aatc.ttl)
 
 AATC development was motivated by the need to index AAT terms in a Skosmos server, so that AAT terms could be used easily queried via the Skosmos API and easily used by software applications to classify data with AAT terms.
 
-Since our current use-cases, that called for the us of AAT concepts, were not concerned with ancestry of the concepts, we have decided to no preserve the  hierarchical relations of AAT. Instead, we focused on creating a flat controlled vocabulary, containing all concepts that included both English and Dutch labels.
+Since our current use-cases, that called for the us of AAT concepts, were not concerned with parent/child relation between concepts, we have decided to remove the hierarchical relations of AAT. Instead, we focused on creating a flat controlled vocabulary, containing all concepts that included both English and Dutch labels.
 
 ### AATC Creation
 
