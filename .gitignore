@@ -6,3 +6,5 @@ full.zip
 scripts/aat/
 aat/
 ulan-artists.csv
+aatc-nb.ttl
+sparql/count_concepts.rq

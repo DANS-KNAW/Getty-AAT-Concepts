@@ -26,6 +26,11 @@ ex:ConceptShape
 		sh:nodeKind sh:IRI ;
 		sh:hasValue skos:Concept
 	] ;
+	sh:property [                 
+		sh:path dct:issued ;
+		sh:nodeKind sh:Literal ;
+		sh:datatype xsd:dateTime ;
+	] ;
 	sh:closed true .
 
 ex:ConceptSchemeShape
