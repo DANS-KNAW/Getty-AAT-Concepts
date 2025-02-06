@@ -16,16 +16,16 @@ If you want to be able to execute the code in this repository, please take note 
 - `resources.md`(resources.md) provides a list of the documentation that was consulted in the process of creating the landscape analysis. 
 
 
-## Art and Architecture Thesaurus Concepts (AATC) Controlled Vocabulary
+## Generate:Art and Architecture Thesaurus Concepts (AATC) - Controlled Vocabulary
 
 The Art and Architecture Thesaurus Concepts (AATC) is a *slim*, or a subsection of Getty AAT concepts. 
 
 In more technical terms, the AATC is a SKOS concept scheme that restructures the concepts from the Art and Architecture Thesaurus (AAT) into a flat controlled vocabulary, and excludes non-concepts, such as facets, hierarchies and guide terms. 
 The result is a controlled vocabulary where each term is a `skos:Concept`, member of `aatc: skos:ConceptScheme`, with English(@en) and Dutch(@nl) labels. 
 
-Original URI are kept, and users are encourage to find more information and reference the term through its URI. 
+Original URIs are kept, and users are encourage to find more information and reference the term through its URI. 
 
-Result: [aatc.ttl](aatc.ttl) 
+Output: [aatc.ttl](aatc.ttl) 
 
 ### Motivation 
 
