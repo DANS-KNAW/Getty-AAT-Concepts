@@ -1,7 +1,5 @@
 
-# Getty - Art and Architecture Thesaurus (AAT)
-
-*Analysis and Generation of slim AATC*
+# Getty - Art and Architecture Thesaurus (AAT) - Analysis and Generation of *slim* AATC
 
 ## Landscape Analysis of the Getty AAT
 
