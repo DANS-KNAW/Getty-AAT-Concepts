@@ -1,17 +1,20 @@
 
 # Getty - Art and Architecture Thesaurus (AAT) - Analysis and Generation of *slim* AATC
 
-## Landscape Analysis of the Getty AAT
+## Report
+See https://doi.org/10.5281/zenodo.15487726
 
-### Setup
-If you want to be able to execute the code in this repository, please take note of the following: 
-- This notebook is written with the assumption that you run it in [Visual Studio Code](https://code.visualstudio.com/), with the following extensions: Python, SPARQL Executor, and REST Client. Some functionality may otherwise not be available.
-- Please install the packages that are specified in `requirements.txt`(requirements.txt). 
+## the Getty AAT Landscape Analysis
 
 ### Analysis Structure 
 - [`gettyOverview.ipynb`](gettyOverview.ipynb) contains an overview of the following of the main conceptual and technical aspects of Getty AAT and ULAN
 - [`AAT_concepts.ipynb`](AAT_concepts.ipynb) delves into the semantic anatomy of a AAT concept; And explain how AAT hierarchies are created.
 - `resources.md`(resources.md) provides a list of the documentation that was consulted in the process of creating the landscape analysis. 
+
+### Setup
+If you want to be able to execute the code in this repository, please take note of the following: 
+- This notebook is written with the assumption that you run it in [Visual Studio Code](https://code.visualstudio.com/), with the following extensions: Python, SPARQL Executor, and REST Client. Some functionality may otherwise not be available.
+- Please install the packages that are specified in `requirements.txt`(requirements.txt). 
 
 
 ## Generate:Art and Architecture Thesaurus Concepts (AATC) - Controlled Vocabulary
