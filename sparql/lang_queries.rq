@@ -1,0 +1,31 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX gvp: <http://vocab.getty.edu/ontology#> 
+PREFIX gvp_lang: <http://vocab.getty.edu/language/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX aatc: <http://vocabularies.dans.knaw.nl/aatconcepts/>
+
+SELECT ?concept ?preflabel 
+WHERE {
+    ?concept a gvp:Concept ;
+        skos:inScheme aat: ;
+        skosxl:prefLabel ?preflabel .
+        
+    OPTIONAL {?concept dcterms:issued ?issuedDate .}
+
+    { ?preflabel  dcterms:language aat:300388277 ; skosxl:literalForm ?label_literal_en.  } # lang: @en
+                 
+    UNION
+
+    { ?preflabel  dcterms:language aat:300387822 ; skosxl:literalForm ?label_literal_en_us . 
+      BIND (STRLANG(STR(?label_literal_en_us), 'en') AS  ?label_literal_en)} # lang: @en-US - converts to @en
+    
+    UNION
+    
+    { ?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . } # lang: @nl 
+    FILTER( STRSTARTS(str(?concept), str(aat:)) )
+}
+ORDER BY ?concept
+LIMIT 100
