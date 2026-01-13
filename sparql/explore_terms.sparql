@@ -5,7 +5,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX aat: <http://vocab.getty.edu/ontology#>
 
 SELECT DISTINCT ?o
-FROM <http://vocab.getty.edu/dataset/aat>
+# FROM <http://vocab.getty.edu/dataset/aat>
 WHERE {
     ?s aat:Record_Type "GuideTerm" .
 }
