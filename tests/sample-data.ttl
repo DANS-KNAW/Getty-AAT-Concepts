@@ -377,3 +377,21 @@ aat_term:1000918021-la a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17no
 	dct:source aat_source:2000052314 , aat_source:2000093795 , aat_source:2000061974-term-1000918021 ;
 	dc:identifier "1000918021" ;
 	dct:language aat:300388693 , gvp_lang:la .
+
+aat:300430847 a gvp:Concept ;
+	skos:inScheme <http://vocab.getty.edu/aat/> ;
+	skosxl:prefLabel aat_term:1000799425-fr .
+
+aat_term:1000799425-fr a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
+	gvp:term "médaille de récompense"@fr ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:literalForm "médaille de récompense"@fr ;
+	gvp:termType <http://vocab.getty.edu/term/type/AlternateDescriptor> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/FeminineSingularNoun> ;
+	dct:contributor aat_contrib:10000159 , aat_contrib:10000299 ;
+	gvp:contributorNonPreferred aat_contrib:10000159 , aat_contrib:10000299 ;
+	dct:source aat_source:2000106165 , aat_source:2000106167 , aat_source:2000106168 , aat_source:2000106160-term-1000799425 , aat_source:2000106166-term-1000799425 ;
+	gvp:sourceNonPreferred aat_source:2000106165 ;
+	gvp:sourceAlternatePreferred aat_source:2000106167 , aat_source:2000106160-term-1000799425 ;
+	dc:identifier "1000799425" ;
+	dct:language aat:300388306 , gvp_lang:fr .
