@@ -57,22 +57,19 @@ CONSTRUCT {
     ?concept a skos:Concept ;
         skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
         skos:prefLabel ?label_literal_en ;
-        skos:prefLabel ?label_literal_nl ;
-        dcterms:issued ?issuedDate .
-}
+        skos:prefLabel ?label_literal_nl .
+        }
 
 WHERE {
     ?concept a gvp:Concept ;
         skos:inScheme aat: ;
         skosxl:prefLabel ?preflabel ;
         gvp:prefLabelGVP ?gpvlabel .        
-    # OPTIONAL {?concept dcterms:issued ?issuedDate . }
-    # FILTER( STRSTARTS(str(?concept), str(aat:)) )
+    FILTER( !STRSTARTS(str(?concept), str(gvp_lang:)) ) # excludes concepts outside aat: 
     
     ?gpvlabel skosxl:literalForm ?label_literal_en . 
     OPTIONAL {?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . }
 }
-# ORDER BY ?concept
 
 '''  % today
 print(getty_concepts_construct)
