@@ -64,23 +64,15 @@ CONSTRUCT {
 WHERE {
     ?concept a gvp:Concept ;
         skos:inScheme aat: ;
-        skosxl:prefLabel ?preflabel .
-        
-    OPTIONAL {?concept dcterms:issued ?issuedDate .}
-
-    { ?preflabel  dcterms:language aat:300388277 ; skosxl:literalForm ?label_literal_en.  } # lang: @en
-                 
-    UNION
-
-    { ?preflabel  dcterms:language aat:300387822 ; skosxl:literalForm ?label_literal_en_us . 
-      BIND (STRLANG(STR(?label_literal_en_us), 'en') AS  ?label_literal_en)} # lang: @en-US - converts to @en
+        skosxl:prefLabel ?preflabel ;
+        gvp:prefLabelGVP ?gpvlabel .        
+    # OPTIONAL {?concept dcterms:issued ?issuedDate . }
+    # FILTER( STRSTARTS(str(?concept), str(aat:)) )
     
-    UNION
-    
-    { ?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . } # lang: @nl 
-    FILTER( STRSTARTS(str(?concept), str(aat:)) )
+    ?gpvlabel skosxl:literalForm ?label_literal_en . 
+    OPTIONAL {?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . }
 }
-ORDER BY ?concept
+# ORDER BY ?concept
 
 '''  % today
 print(getty_concepts_construct)

@@ -63,347 +63,104 @@
 @prefix wv: <http://vocab.org/waiver/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aat:300189559 a gvp:Concept ;
-	skos:inScheme <http://vocab.getty.edu/aat/> ;
-	skosxl:prefLabel aat_term:1000189559-en .
-
-aat_term:1000189559-en a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "male"@en ;
-	gvp:displayOrder "1"^^xsd:positiveInteger ;
-	skosxl:literalForm "male"@en ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
-	gvp:contributorPreferred aat_contrib:10000000 ;
-	dct:contributor aat_contrib:10000000 ;
-	gvp:sourcePreferred aat_source:2000042061 , aat_source:2000046682 , aat_source:2000120303 , aat_source:2000048328-term-1000189559 ;
-	dct:source aat_source:2000042061 , aat_source:2000046682 , aat_source:2000120303 , aat_source:2000048328-term-1000189559 ;
-	dc:identifier "1000189559" ;
-	dct:language aat:300388277 , gvp_lang:en .
-
-aat:300189559 skosxl:prefLabel aat_term:1000531598-zh-Hant .
-
-aat_term:1000531598-zh-Hant a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "雄性"@zh-hant ;
-	gvp:displayOrder "2"^^xsd:positiveInteger ;
-	skosxl:literalForm "雄性"@zh-hant ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:contributorPreferred aat_contrib:10000250 ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:sourcePreferred aat_source:2000058246-term-1000531598 , aat_source:2000058247-term-1000531598 ;
-	dct:source aat_source:2000058246-term-1000531598 , aat_source:2000058247-term-1000531598 ;
-	dc:identifier "1000531598" ;
-	dct:language aat:300388116 , gvp_lang:zh-Hant .
-
-aat:300189559 skosxl:prefLabel aat_term:1000531600-zh-Latn-pinyin-x-hanyu .
-
-aat_term:1000531600-zh-Latn-pinyin-x-hanyu a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "xióng xìng"@zh-latn-pinyin-x-hanyu ;
-	gvp:displayOrder "3"^^xsd:positiveInteger ;
-	skosxl:literalForm "xióng xìng"@zh-latn-pinyin-x-hanyu ;
-	gvp:termType <http://vocab.getty.edu/term/type/UsedForTerm> ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:contributorNonPreferred aat_contrib:10000250 ;
-	dct:source aat_source:2000052784 ;
-	gvp:sourceNonPreferred aat_source:2000052784 ;
-	dc:identifier "1000531600" ;
-	dct:language aat:300388117 , gvp_lang:zh-Latn-pinyin-x-hanyu .
-
-aat:300189559 skosxl:prefLabel aat_term:1000531599-zh-Latn-pinyin-x-notone .
-
-aat_term:1000531599-zh-Latn-pinyin-x-notone a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "xiong xing"@zh-latn-pinyin-x-notone ;
-	gvp:displayOrder "4"^^xsd:positiveInteger ;
-	skosxl:literalForm "xiong xing"@zh-latn-pinyin-x-notone ;
-	gvp:termType <http://vocab.getty.edu/term/type/UsedForTerm> ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:contributorNonPreferred aat_contrib:10000250 ;
-	dct:source aat_source:2000052784 ;
-	gvp:sourceNonPreferred aat_source:2000052784 ;
-	dc:identifier "1000531599" ;
-	dct:language aat:300388118 , gvp_lang:zh-Latn-pinyin-x-notone .
-
-aat:300189559 skosxl:prefLabel aat_term:1000531601-zh-Latn-wadegile .
-
-aat_term:1000531601-zh-Latn-wadegile a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "hsiung hsing"@zh-latn-wadegile ;
-	gvp:displayOrder "5"^^xsd:positiveInteger ;
-	skosxl:literalForm "hsiung hsing"@zh-latn-wadegile ;
-	gvp:termType <http://vocab.getty.edu/term/type/UsedForTerm> ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:contributorNonPreferred aat_contrib:10000250 ;
-	dct:source aat_source:2000052784 ;
-	gvp:sourceNonPreferred aat_source:2000052784 ;
-	dc:identifier "1000531601" ;
-	dct:language aat:300388121 , gvp_lang:zh-Latn-wadegile .
-
-aat:300189559 skosxl:prefLabel aat_term:1000496747-nl .
-
-aat_term:1000496747-nl a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "mannelijk"@nl ;
-	gvp:displayOrder "6"^^xsd:positiveInteger ;
-	skosxl:literalForm "mannelijk"@nl ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:contributorPreferred aat_contrib:10000205 ;
-	dct:contributor aat_contrib:10000205 ;
-	gvp:sourcePreferred aat_source:2000113770 ;
-	dct:source aat_source:2000052381 , aat_source:2000113770 ;
-	dc:identifier "1000496747" ;
-	dct:language aat:300388256 , gvp_lang:nl .
-
-aat:300189559 skosxl:prefLabel aat_term:1000443163-es .
-
-aat_term:1000443163-es a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "masculino"@es ;
-	gvp:displayOrder "7"^^xsd:positiveInteger ;
-	skosxl:literalForm "masculino"@es ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:contributorPreferred aat_contrib:10000131 ;
-	dct:contributor aat_contrib:10000131 ;
-	gvp:sourcePreferred aat_source:2000051235 , aat_source:2000048810-term-1000443163 ;
-	dct:source aat_source:2000051235 , aat_source:2000048810-term-1000443163 ;
-	dc:identifier "1000443163" ;
-	dct:language aat:300389311 , gvp_lang:es .
-
 aat:300022441 a gvp:Concept ;
 	skos:inScheme <http://vocab.getty.edu/aat/> ;
-	skosxl:prefLabel aat_term:1000022441-en-US .
+	skosxl:prefLabel aat_term:1000022441-en-US ;
+	gvp:prefLabelGVP aat_term:1000022441-en-US .
 
-aat_term:1000022441-en-US a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "colored pencils"@en-us ;
-	gvp:displayOrder "1"^^xsd:positiveInteger ;
-	skosxl:literalForm "colored pencils"@en-us ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/PluralNoun> ;
-	gvp:contributorPreferred aat_contrib:10000000 , aat_contrib:10000088 ;
-	dct:contributor aat_contrib:10000000 , aat_contrib:10000088 ;
-	gvp:sourcePreferred aat_source:2000018191 , aat_source:2000017221-term-1000022441 , aat_source:2000026701-term-1000022441 , aat_source:2000051089-term-1000022441 ;
-	dct:source aat_source:2000018191 , aat_source:2000017221-term-1000022441 , aat_source:2000026701-term-1000022441 , aat_source:2000051089-term-1000022441 ;
-	dc:identifier "1000022441" ;
-	dct:language aat:300387822 , gvp_lang:en-US .
+aat_term:1000022441-en-US skosxl:literalForm "colored pencils"@en-us .
 
 aat:300022441 skosxl:prefLabel aat_term:1000116246-en-GB .
 
-aat_term:1000116246-en-GB a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "coloured pencils"@en-gb ;
-	gvp:displayOrder "7"^^xsd:positiveInteger ;
-	skosxl:literalForm "coloured pencils"@en-gb ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
-	dct:contributor aat_contrib:10000000 ;
-	gvp:contributorNonPreferred aat_contrib:10000000 ;
-	dct:source aat_source:2000094828 ;
-	gvp:sourceNonPreferred aat_source:2000094828 ;
-	dc:identifier "1000116246" ;
-	dct:language aat:300388027 , gvp_lang:en-GB .
+aat_term:1000116246-en-GB skosxl:literalForm "coloured pencils"@en-gb .
 
 aat:300022441 skosxl:prefLabel aat_term:1000550564-zh-Hant .
 
-aat_term:1000550564-zh-Hant a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "色鉛筆"@zh-hant ;
-	gvp:displayOrder "11"^^xsd:positiveInteger ;
-	skosxl:literalForm "色鉛筆"@zh-hant ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:contributorPreferred aat_contrib:10000250 ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:sourcePreferred aat_source:2000070130-term-1000550564 ;
-	dct:source aat_source:2000070130-term-1000550564 ;
-	dc:identifier "1000550564" ;
-	dct:language aat:300388116 , gvp_lang:zh-Hant .
+aat_term:1000550564-zh-Hant skosxl:literalForm "色鉛筆"@zh-hant .
 
 aat:300022441 skosxl:prefLabel aat_term:1000550566-zh-Latn-pinyin-x-hanyu .
 
-aat_term:1000550566-zh-Latn-pinyin-x-hanyu a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "cǎi sè qiān bǐ"@zh-latn-pinyin-x-hanyu ;
-	gvp:displayOrder "12"^^xsd:positiveInteger ;
-	skosxl:literalForm "cǎi sè qiān bǐ"@zh-latn-pinyin-x-hanyu ;
-	gvp:termType <http://vocab.getty.edu/term/type/UsedForTerm> ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:contributorNonPreferred aat_contrib:10000250 ;
-	dct:source aat_source:2000052784 ;
-	gvp:sourceNonPreferred aat_source:2000052784 ;
-	dc:identifier "1000550566" ;
-	dct:language aat:300388117 , gvp_lang:zh-Latn-pinyin-x-hanyu .
+aat_term:1000550566-zh-Latn-pinyin-x-hanyu skosxl:literalForm "cǎi sè qiān bǐ"@zh-latn-pinyin-x-hanyu .
 
 aat:300022441 skosxl:prefLabel aat_term:1000550565-zh-Latn-pinyin-x-notone .
 
-aat_term:1000550565-zh-Latn-pinyin-x-notone a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "cai se qian bi"@zh-latn-pinyin-x-notone ;
-	gvp:displayOrder "13"^^xsd:positiveInteger ;
-	skosxl:literalForm "cai se qian bi"@zh-latn-pinyin-x-notone ;
-	gvp:termType <http://vocab.getty.edu/term/type/UsedForTerm> ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:contributorNonPreferred aat_contrib:10000250 ;
-	dct:source aat_source:2000052784 ;
-	gvp:sourceNonPreferred aat_source:2000052784 ;
-	dc:identifier "1000550565" ;
-	dct:language aat:300388118 , gvp_lang:zh-Latn-pinyin-x-notone .
+aat_term:1000550565-zh-Latn-pinyin-x-notone skosxl:literalForm "cai se qian bi"@zh-latn-pinyin-x-notone .
 
 aat:300022441 skosxl:prefLabel aat_term:1000550567-zh-Latn-wadegile .
 
-aat_term:1000550567-zh-Latn-wadegile a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "ts'ai se ch'ien pi"@zh-latn-wadegile ;
-	gvp:displayOrder "14"^^xsd:positiveInteger ;
-	skosxl:literalForm "ts'ai se ch'ien pi"@zh-latn-wadegile ;
-	gvp:termType <http://vocab.getty.edu/term/type/UsedForTerm> ;
-	dct:contributor aat_contrib:10000250 ;
-	gvp:contributorNonPreferred aat_contrib:10000250 ;
-	dct:source aat_source:2000052784 ;
-	gvp:sourceNonPreferred aat_source:2000052784 ;
-	dc:identifier "1000550567" ;
-	dct:language aat:300388121 , gvp_lang:zh-Latn-wadegile .
+aat_term:1000550567-zh-Latn-wadegile skosxl:literalForm "ts'ai se ch'ien pi"@zh-latn-wadegile .
 
 aat:300022441 skosxl:prefLabel aat_term:1000475488-nl .
 
-aat_term:1000475488-nl a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "kleurpotloden"@nl ;
-	gvp:displayOrder "15"^^xsd:positiveInteger ;
-	skosxl:literalForm "kleurpotloden"@nl ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:contributorPreferred aat_contrib:10000205 ;
-	dct:contributor aat_contrib:10000205 ;
-	gvp:sourcePreferred aat_source:2000113770 ;
-	dct:source aat_source:2000052374 , aat_source:2000113770 , aat_source:2000119919 ;
-	dc:identifier "1000475488" ;
-	dct:language aat:300388256 , gvp_lang:nl .
+aat_term:1000475488-nl skosxl:literalForm "kleurpotloden"@nl .
 
 aat:300022441 skosxl:prefLabel aat_term:1000784973-fr .
 
-aat_term:1000784973-fr a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "crayon à colorier"@fr ;
-	gvp:displayOrder "18"^^xsd:positiveInteger ;
-	skosxl:literalForm "crayon à colorier"@fr ;
-	gvp:termType <http://vocab.getty.edu/term/type/UsedForTerm> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/MasculineSingularNoun> ;
-	dct:contributor aat_contrib:10000000 , aat_contrib:10000159 , aat_contrib:10000299 ;
-	gvp:contributorNonPreferred aat_contrib:10000000 , aat_contrib:10000159 , aat_contrib:10000299 ;
-	dct:source aat_source:2000106165 , aat_source:2000106167 , aat_source:2000106160-term-1000784973 , aat_source:2000106166-term-1000784973 ;
-	gvp:sourceNonPreferred aat_source:2000106165 ;
-	gvp:sourceAlternatePreferred aat_source:2000106167 , aat_source:2000106160-term-1000784973 ;
-	dc:identifier "1000784973" ;
-	dct:language aat:300388306 , gvp_lang:fr .
+aat_term:1000784973-fr skosxl:literalForm "crayon à colorier"@fr .
 
 aat:300022441 skosxl:prefLabel aat_term:1000653408-de .
 
-aat_term:1000653408-de a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "Buntstift"@de ;
-	gvp:displayOrder "20"^^xsd:positiveInteger ;
-	skosxl:literalForm "Buntstift"@de ;
-	gvp:termType <http://vocab.getty.edu/term/type/AlternateDescriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/SingularNoun> ;
-	gvp:contributorPreferred aat_contrib:10000232 ;
-	dct:contributor aat_contrib:10000232 ;
-	dct:source aat_source:2000083634-term-1000653408 , aat_source:2000083630-term-1000653408 , aat_source:2000083679-term-1000653408 ;
-	dc:identifier "1000653408" ;
-	dct:language aat:300388344 , gvp_lang:de .
+aat_term:1000653408-de skosxl:literalForm "Buntstift"@de .
 
 aat:300022441 skosxl:prefLabel aat_term:1000885472-nb .
 
-aat_term:1000885472-nb a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "fargeblyant"@nb ;
-	gvp:displayOrder "21"^^xsd:positiveInteger ;
-	skosxl:literalForm "fargeblyant"@nb ;
-	gvp:termType <http://vocab.getty.edu/term/type/AlternateDescriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/SingularNoun> ;
-	gvp:contributorPreferred aat_contrib:10000332 ;
-	dct:contributor aat_contrib:10000332 ;
-	gvp:sourcePreferred aat_source:2000114978 ;
-	dct:source aat_source:2000114978 ;
-	dc:identifier "1000885472" ;
-	dct:language aat:300391418 , gvp_lang:nb .
+aat_term:1000885472-nb skosxl:literalForm "fargeblyant"@nb .
 
 aat:300022441 skosxl:prefLabel aat_term:1000885472-nn .
 
-aat_term:1000885472-nn a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "fargeblyant"@nn ;
-	gvp:displayOrder "21"^^xsd:positiveInteger ;
-	skosxl:literalForm "fargeblyant"@nn ;
-	gvp:termType <http://vocab.getty.edu/term/type/AlternateDescriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/SingularNoun> ;
-	gvp:contributorPreferred aat_contrib:10000332 ;
-	dct:contributor aat_contrib:10000332 ;
-	gvp:sourcePreferred aat_source:2000114978 ;
-	dct:source aat_source:2000114978 ;
-	dc:identifier "1000885472" ;
-	dct:language aat:300388992 , gvp_lang:nn .
+aat_term:1000885472-nn skosxl:literalForm "fargeblyant"@nn .
 
 aat:300022441 skosxl:prefLabel aat_term:1000458233-es .
 
-aat_term:1000458233-es a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "lápices de color"@es ;
-	gvp:displayOrder "22"^^xsd:positiveInteger ;
-	skosxl:literalForm "lápices de color"@es ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/PluralNoun> ;
-	dct:contributor aat_contrib:10000000 ;
-	gvp:contributorNonPreferred aat_contrib:10000000 ;
-	dct:source aat_source:2000094828 ;
-	gvp:sourceNonPreferred aat_source:2000094828 ;
-	dc:identifier "1000458233" ;
-	dct:language aat:300389311 , gvp_lang:es .
+aat_term:1000458233-es skosxl:literalForm "lápices de color"@es .
 
-aat:300456698 a gvp:Concept ;
+aat:300189559 a gvp:Concept ;
 	skos:inScheme <http://vocab.getty.edu/aat/> ;
-	skosxl:prefLabel aat_term:1000918021-en .
+	skosxl:prefLabel aat_term:1000189559-en ;
+	gvp:prefLabelGVP aat_term:1000189559-en .
 
-aat_term:1000918021-en a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "Nestor notabilis"@en ;
-	gvp:qualifier "species"@en ;
-	gvp:displayOrder "1"^^xsd:positiveInteger ;
-	skosxl:literalForm "Nestor notabilis (species)"@en ;
-	gvp:termFlag <http://vocab.getty.edu/term/flag/LoanTerm> ;
-	gvp:termKind <http://vocab.getty.edu/term/kind/ScientificOrTechnical> ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
-	gvp:contributorPreferred aat_contrib:10000000 ;
-	dct:contributor aat_contrib:10000000 ;
-	gvp:sourcePreferred aat_source:2000052314 , aat_source:2000093795 , aat_source:2000061974-term-1000918021 ;
-	dct:source aat_source:2000052314 , aat_source:2000093795 , aat_source:2000061974-term-1000918021 ;
-	dc:identifier "1000918021" ;
-	dct:language aat:300388277 , gvp_lang:en .
+aat_term:1000189559-en skosxl:literalForm "male"@en .
 
-aat:300456698 skosxl:prefLabel aat_term:1000918021-la .
+aat:300189559 skosxl:prefLabel aat_term:1000531598-zh-Hant .
 
-aat_term:1000918021-la a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "Nestor notabilis"@la ;
-	gvp:qualifier "species"@la ;
-	gvp:displayOrder "1"^^xsd:positiveInteger ;
-	skosxl:literalForm "Nestor notabilis (species)"@la ;
-	gvp:termKind <http://vocab.getty.edu/term/kind/ScientificOrTechnical> ;
-	gvp:termType <http://vocab.getty.edu/term/type/Descriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
-	gvp:contributorPreferred aat_contrib:10000000 ;
-	dct:contributor aat_contrib:10000000 ;
-	gvp:sourcePreferred aat_source:2000052314 , aat_source:2000093795 , aat_source:2000061974-term-1000918021 ;
-	dct:source aat_source:2000052314 , aat_source:2000093795 , aat_source:2000061974-term-1000918021 ;
-	dc:identifier "1000918021" ;
-	dct:language aat:300388693 , gvp_lang:la .
+aat_term:1000531598-zh-Hant skosxl:literalForm "雄性"@zh-hant .
+
+aat:300189559 skosxl:prefLabel aat_term:1000531600-zh-Latn-pinyin-x-hanyu .
+
+aat_term:1000531600-zh-Latn-pinyin-x-hanyu skosxl:literalForm "xióng xìng"@zh-latn-pinyin-x-hanyu .
+
+aat:300189559 skosxl:prefLabel aat_term:1000531599-zh-Latn-pinyin-x-notone .
+
+aat_term:1000531599-zh-Latn-pinyin-x-notone skosxl:literalForm "xiong xing"@zh-latn-pinyin-x-notone .
+
+aat:300189559 skosxl:prefLabel aat_term:1000531601-zh-Latn-wadegile .
+
+aat_term:1000531601-zh-Latn-wadegile skosxl:literalForm "hsiung hsing"@zh-latn-wadegile .
+
+aat:300189559 skosxl:prefLabel aat_term:1000496747-nl .
+
+aat_term:1000496747-nl skosxl:literalForm "mannelijk"@nl .
+
+aat:300189559 skosxl:prefLabel aat_term:1000443163-es .
+
+aat_term:1000443163-es skosxl:literalForm "masculino"@es .
 
 aat:300430847 a gvp:Concept ;
 	skos:inScheme <http://vocab.getty.edu/aat/> ;
-	skosxl:prefLabel aat_term:1000799425-fr .
+	skosxl:prefLabel aat_term:1000799425-fr ;
+	gvp:prefLabelGVP aat_term:1000799424-en .
 
-aat_term:1000799425-fr a skosxl:Label , _:3521f022-dfbd-48dc-b732-fbf16fdf0b17node1886rem21x1 ;
-	gvp:term "médaille de récompense"@fr ;
-	gvp:displayOrder "2"^^xsd:positiveInteger ;
-	skosxl:literalForm "médaille de récompense"@fr ;
-	gvp:termType <http://vocab.getty.edu/term/type/AlternateDescriptor> ;
-	gvp:termPOS <http://vocab.getty.edu/term/POS/FeminineSingularNoun> ;
-	dct:contributor aat_contrib:10000159 , aat_contrib:10000299 ;
-	gvp:contributorNonPreferred aat_contrib:10000159 , aat_contrib:10000299 ;
-	dct:source aat_source:2000106165 , aat_source:2000106167 , aat_source:2000106168 , aat_source:2000106160-term-1000799425 , aat_source:2000106166-term-1000799425 ;
-	gvp:sourceNonPreferred aat_source:2000106165 ;
-	gvp:sourceAlternatePreferred aat_source:2000106167 , aat_source:2000106160-term-1000799425 ;
-	dc:identifier "1000799425" ;
-	dct:language aat:300388306 , gvp_lang:fr .
+aat_term:1000799425-fr skosxl:literalForm "médaille de récompense"@fr .
 
-aat:300022441a a gvp:Concept ;
+aat_term:1000799424-en skosxl:literalForm "prize medal"@en .
+
+aat:300456698 a gvp:Concept ;
 	skos:inScheme <http://vocab.getty.edu/aat/> ;
-    skos:prefLabel aat_term:1000550564-zh-Hant .
+	skosxl:prefLabel aat_term:1000918021-en ;
+	gvp:prefLabelGVP aat_term:1000918021-en .
 
-aat:300022441b a gvp:Concept ;
-	skos:inScheme <http://vocab.getty.edu/aat/> ;
-    skos:prefLabel aat_term:1000550564-zh-Hant .
+aat_term:1000918021-en skosxl:literalForm "Nestor notabilis (species)"@en .
 
-aat:300022441c a gvp:Concept ;
-	skos:inScheme <http://vocab.getty.edu/aat/> ;
-    skos:prefLabel aat_term:1000550564-zh-Hant .
+aat:300456698 skosxl:prefLabel aat_term:1000918021-la .
+
+aat_term:1000918021-la skosxl:literalForm "Nestor notabilis (species)"@la .

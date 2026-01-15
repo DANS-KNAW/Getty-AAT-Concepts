@@ -1,18 +1,1 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://vocab.getty.edu/aat/300022441> a skos:Concept ;
-    skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
-    skos:prefLabel "colored pencils"@en,
-        "kleurpotloden"@nl .
-
-<http://vocab.getty.edu/aat/300189559> a skos:Concept ;
-    skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
-    skos:prefLabel "male"@en,
-        "mannelijk"@nl .
-
-<http://vocab.getty.edu/aat/300456698> a skos:Concept ;
-    skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
-    skos:prefLabel "Nestor notabilis (species)"@en .
-
-<http://vocabularies.dans.knaw.nl/aatconcepts> a skos:ConceptScheme .
 
