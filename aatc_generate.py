@@ -70,7 +70,7 @@ WHERE {
     ?gpvlabel skosxl:literalForm ?label_literal_en . 
     OPTIONAL {?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . }
 }
-
+ORDER BY ?concept
 '''  % today
 print(getty_concepts_construct)
 
