@@ -8,3 +8,4 @@ aat/
 ulan-artists.csv
 aatc-nb.ttl
 sparql/count_concepts.rq
+tests/
