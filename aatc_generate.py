@@ -47,42 +47,56 @@ today = date.today().strftime("%Y-%m-%d")
 getty_concepts_construct = '''
 CONSTRUCT {
     <http://vocabularies.dans.knaw.nl/aatconcepts> a skos:ConceptScheme ;
-        dct:title "The Art and Architecture Thesaurus Concepts"@en ;
+        dcterms:title "The Art and Architecture Thesaurus Concepts"@en ;
         rdfs:label "The Art and Architecture Thesaurus Concepts"@en ;
-        rdfs:comment "The Art and Architecture Thesaurus Concepts (AATC) is a SKOS concept scheme that restructures the concepts from the Art and Architecture Thesaurus (AAT) into a flat controlled vocabulary, and excludes non-concepts, such as facets, hierarchies and guide terms. The result is a controlled vocabulary where each term is a skos:Concept, member of aatc: skos:ConceptScheme, with English(@en) and Dutch(@nl) labels. Original URI are kept, and users are encourage to find more information and reference the term through its URI. AATC development was motivated by the need to index AAT terms in a Skosmos server, so that AAT terms could be used easily queried via the Skosmos API and easily used by software applications to classify data with AAT terms"@en ;
-        dct:creator <https://ror.org/008pnp284> , <https://orcid.org/0000-0002-7839-3698> ;
-        dct:created "%s"^^xsd:date ;
+        rdfs:comment "The Art and Architecture Thesaurus Concepts (AATC) is a SKOS concept scheme..."@en ;
+        dcterms:creator <https://ror.org/008pnp284> , <https://orcid.org/0000-0002-7839-3698> ;
+        dcterms:created "%s"^^xsd:date ;
         dcterms:license <http://opendatacommons.org/licenses/by/1.0/> .
-        
+
     ?concept a skos:Concept ;
         skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
         skos:prefLabel ?label_fixed_en ;
         skos:prefLabel ?label_literal_nl .
-        }
 
-WHERE {
-    ?concept a gvp:Concept ;
-        skos:inScheme aat: ;
-        skosxl:prefLabel ?preflabel ;
-        gvp:prefLabelGVP ?gpvlabel .        
-    FILTER( !STRSTARTS(str(?concept), str(gvp_lang:)) ) # excludes concepts outside aat: 
-    
-    ?gpvlabel skosxl:literalForm ?label_literal_en . 
-    OPTIONAL {?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . }
-    # convert @en-us to @en in labels
-    BIND(
-      IF(LANG(?label_literal_en) = "en-us",
-         STRLANG(STR(?label_literal_en), "en"),
-         ?label_literal_en) 
-      AS ?label_fixed_en
-    )
-
+    ?obsolete a skos:Concept ;
+        skos:prefLabel ?prefLabel ;
+        dcterms:isReplacedBy ?replacement ;
+        owl:deprecated true .
 }
-ORDER BY ?concept
-'''  % today
+WHERE {
+    # First pattern, for active concepts
+    {
+        ?concept a gvp:Concept ;
+            skos:inScheme aat: ;
+            skosxl:prefLabel ?preflabel ;
+            gvp:prefLabelGVP ?gpvlabel .
+        FILTER( !STRSTARTS(str(?concept), str(gvp_lang:)) )
+        ?gpvlabel skosxl:literalForm ?label_literal_en .
+        OPTIONAL { ?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . }
+        BIND(
+            IF(LANG(?label_literal_en) = "en-us",
+                STRLANG(STR(?label_literal_en), "en"),
+                ?label_literal_en)
+            AS ?label_fixed_en
+        )
+    }
+    # Second pattern, for obsolete subjects
+    UNION 
+      {
+        ?obsolete a gvp:ObsoleteSubject ;
+            skos:prefLabel ?prefLabel .
+        FILTER( STRSTARTS(str(?obsolete), str(aat:)) )
+        ?obsolete  dcterms:isReplacedBy ?replacement .
+    }
+}
+''' % today
+
+
 print(getty_concepts_construct)
 
 construct_results = sparql_query(query=getty_concepts_construct)
 
 with open('aatc.ttl', 'wb') as att_subjects_f:
     att_subjects_f.write(construct_results)
+
