@@ -44,6 +44,7 @@ def print_sparql_results(results):
         return (row)
 
 today = date.today().strftime("%Y-%m-%d")
+version = '1.1.0'
 getty_concepts_construct = '''
 CONSTRUCT {
     <http://vocabularies.dans.knaw.nl/aatconcepts> a skos:ConceptScheme ;
@@ -52,6 +53,7 @@ CONSTRUCT {
         rdfs:comment "The Art and Architecture Thesaurus Concepts (AATC) is a SKOS concept scheme..."@en ;
         dcterms:creator <https://ror.org/008pnp284> , <https://orcid.org/0000-0002-7839-3698> ;
         dcterms:created "%s"^^xsd:date ;
+        owl:versionInfo "%s" ;
         dcterms:license <http://opendatacommons.org/licenses/by/1.0/> .
 
     ?concept a skos:Concept ;
@@ -90,7 +92,7 @@ WHERE {
         ?obsolete  dcterms:isReplacedBy ?replacement .
     }
 }
-''' % today
+''' % (today, version)
 
 
 print(getty_concepts_construct)

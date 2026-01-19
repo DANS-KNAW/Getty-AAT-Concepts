@@ -68,7 +68,8 @@
 	rdfs:label "The Art and Architecture Thesaurus Concepts"@en ;
 	rdfs:comment "The Art and Architecture Thesaurus Concepts (AATC) is a SKOS concept scheme..."@en ;
 	dct:creator <http://ror.org/008pnp284> , <http://orcid.org/0000-0002-7839-3698> ;
-	dct:created "2026-01-18"^^xsd:date ;
+	dct:created "2026-01-19"^^xsd:date ;
+	owl:versionInfo "1.1.0" ;
 	dct:license <http://opendatacommons.org/licenses/by/1.0/> .
 
 aat:300189559 a skos:Concept ;
