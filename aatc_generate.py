@@ -62,6 +62,7 @@ CONSTRUCT {
         skos:prefLabel ?label_literal_nl .
 
     ?obsolete a skos:Concept ;
+        skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
         skos:prefLabel ?prefLabel ;
         dcterms:isReplacedBy ?replacement ;
         owl:deprecated true .
