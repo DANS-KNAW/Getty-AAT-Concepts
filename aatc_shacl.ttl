@@ -24,6 +24,7 @@ ex:ConceptShape
 		sh:path skos:prefLabel ;     
         sh:minCount 1 ;  # note: there are terms with only EN labels
 		sh:datatype rdf:langString ;
+		sh:severity sh:Warning ;  # acronyms have not langStrings
 	] ;
 	sh:property [                 
 		sh:path skos:inScheme ;
