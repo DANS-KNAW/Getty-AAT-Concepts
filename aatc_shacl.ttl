@@ -41,6 +41,14 @@ ex:ConceptShape
 		sh:nodeKind sh:Literal ;
 		sh:datatype xsd:dateTime ;
 	] ;
+	sh:property [                 
+		sh:path dct:source ;
+		sh:nodeKind sh:IRI ;
+	] ;
+	sh:property [                 
+		sh:path skos:scopeNote ;
+		sh:nodeKind sh:Literal ;
+	] ;	 
 	sh:closed true .
 
 ex:DeprecatedConceptShape
@@ -80,6 +88,10 @@ ex:DeprecatedConceptShape
 		sh:nodeKind sh:IRI ;
         sh:minCount 1 ;  
 	] ;
+	sh:property [                 
+		sh:path dct:source ;
+		sh:nodeKind sh:IRI ;
+	] ;		
 	sh:closed true .
 
 ex:ConceptSchemeShape
@@ -119,5 +131,13 @@ ex:ConceptSchemeShape
 		sh:path owl:versionInfo ;
 		sh:nodeKind sh:Literal ;
 	] ;		
+	sh:property [                 
+		sh:path skos:definition ;
+		sh:nodeKind sh:Literal ;
+	] ;	
+	sh:property [                 
+		sh:path dct:source ;
+		sh:nodeKind sh:IRI ;
+	] ;	
 	sh:closed true . 
 	

@@ -50,18 +50,22 @@ CONSTRUCT {
     <http://vocabularies.dans.knaw.nl/aatconcepts> a skos:ConceptScheme ;
         dcterms:title "The Art and Architecture Thesaurus Concepts"@en ;
         rdfs:label "The Art and Architecture Thesaurus Concepts"@en ;
-        rdfs:comment "The Art and Architecture Thesaurus Concepts (AATC) is a SKOS concept scheme..."@en ;
+        skos:definition "The Art and Architecture Thesaurus Concepts (AATC) is a SKOS concept scheme that restructures the concepts from the Getty Art and Architecture Thesaurus (AAT) into a flat controlled vocabulary, and excludes non-concepts, such as facets, hierarchies and guide terms."@en ;
         dcterms:creator <https://ror.org/008pnp284> , <https://orcid.org/0000-0002-7839-3698> ;
         dcterms:created "%s"^^xsd:date ;
         owl:versionInfo "%s" ;
+        dcterms:source <https://vocab.getty.edu/>, <https://www.getty.edu/research-institute/> ;
         dcterms:license <http://opendatacommons.org/licenses/by/1.0/> .
 
     ?concept a skos:Concept ;
+        dcterms:source <https://vocab.getty.edu/>, <https://www.getty.edu/research-institute/> ;
         skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
+        skos:scopeNote ?desc ;
         skos:prefLabel ?label_fixed_en ;
         skos:prefLabel ?label_literal_nl .
 
     ?obsolete a skos:Concept ;
+        dcterms:source <https://vocab.getty.edu/>, <https://www.getty.edu/research-institute/> ;
         skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
         skos:prefLabel ?prefLabel ;
         dcterms:isReplacedBy ?replacement ;
@@ -77,6 +81,11 @@ WHERE {
         FILTER( !STRSTARTS(str(?concept), str(gvp_lang:)) )
         ?gpvlabel skosxl:literalForm ?label_literal_en .
         OPTIONAL { ?preflabel  dcterms:language aat:300388256 ; skosxl:literalForm ?label_literal_nl . }
+        OPTIONAL { 
+            ?concept skos:scopeNote ?scopenote .
+            ?scopenote dcterms:language aat:300388277 ;
+                       rdf:value ?desc. 
+            }
         BIND(
             IF(LANG(?label_literal_en) = "en-us",
                 STRLANG(STR(?label_literal_en), "en"),
