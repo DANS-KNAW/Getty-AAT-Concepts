@@ -46,6 +46,10 @@ ex:ConceptShape
 		sh:nodeKind sh:IRI ;
 	] ;
 	sh:property [                 
+		sh:path skos:exactMatch ;
+		sh:nodeKind sh:IRI ;
+	] ;
+	sh:property [                 
 		sh:path skos:scopeNote ;
 		sh:nodeKind sh:Literal ;
 	] ;	 

@@ -24,3 +24,5 @@ TODO:
 - [x] add dc:source = "getty research institute"
 - in the ConceptScheme or dataset, add a mention of the Getty
 
+- [ ] exactMatch issues 1) self-referencing values
+- [ ] wikidata not in En (RU instead)

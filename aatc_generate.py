@@ -61,6 +61,7 @@ CONSTRUCT {
         dcterms:source <https://vocab.getty.edu/>, <https://www.getty.edu/research-institute/> ;
         skos:inScheme <http://vocabularies.dans.knaw.nl/aatconcepts> ;
         skos:scopeNote ?desc ;
+        skos:exactMatch ?matches ;        
         skos:prefLabel ?label_fixed_en ;
         skos:prefLabel ?label_literal_nl .
 
@@ -86,6 +87,7 @@ WHERE {
             ?scopenote dcterms:language aat:300388277 ;
                        rdf:value ?desc. 
             }
+        OPTIONAL { ?concept skos:exactMatch ?matches . }
         BIND(
             IF(LANG(?label_literal_en) = "en-us",
                 STRLANG(STR(?label_literal_en), "en"),
