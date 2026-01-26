@@ -22,6 +22,9 @@ cd Skosmos
 docker compose up -d
 
 sleep 2
+# delete all triples  GRAPH <http://vocabularies.dans.knaw.nl/aatconcepts/>
+curl -X POST   --data-urlencode 'update=DELETE { GRAPH <http://vocabularies.dans.knaw.nl/aatconcepts/> { ?s ?p ?o } } WHERE { GRAPH <http://vocabularies.dans.knaw.nl/aatconcepts/> { ?s ?p ?o } }' http://localhost:9030/skosmos/
+sleep 1
 cd ..
 # Load aatc.ttl to Fuseki on graph http://vocabularies.dans.knaw.nl/aatconcepts/
 curl -X POST -H "Content-Type: text/turtle" -T aatc.ttl "http://localhost:9030/skosmos/data?graph=http://vocabularies.dans.knaw.nl/aatconcepts/"

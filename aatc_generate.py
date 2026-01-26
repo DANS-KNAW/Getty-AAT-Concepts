@@ -87,7 +87,10 @@ WHERE {
             ?scopenote dcterms:language aat:300388277 ;
                        rdf:value ?desc. 
             }
-        OPTIONAL { ?concept skos:exactMatch ?matches . }
+        OPTIONAL { 
+            ?concept skos:exactMatch ?matches .
+            FILTER (?concept != ?matches)  # filter our self-referencing exactMatch values 
+           }
         BIND(
             IF(LANG(?label_literal_en) = "en-us",
                 STRLANG(STR(?label_literal_en), "en"),
