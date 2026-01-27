@@ -1,0 +1,16 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX gvp: <http://vocab.getty.edu/ontology#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX aatc: <http://vocabularies.dans.knaw.nl/aatconcepts/>
+PREFIX  owl: <http://www.w3.org/2002/07/owl#> 
+
+SELECT (COUNT(?subj) AS ?count_subj)
+WHERE {
+   ?subj a skos:Concept ;
+         skos:prefLabel ?prefLabel .
+   MINUS{ ?subj owl:deprecated true } .  # NO deprecated concepts
+   FILTER(LANG(?prefLabel) = 'nl') . 
+      }
